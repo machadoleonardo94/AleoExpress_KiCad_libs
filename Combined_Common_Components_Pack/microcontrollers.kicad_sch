@@ -4068,24 +4068,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 243.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 243.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "47cd4e7e-02f8-487b-9d3c-75c51ac02fac")
 		)
@@ -4455,15 +4437,6 @@
 			)
 		)
 		(property "Description" "ESP32-MINI-1/U MCU, SiP, 4MB Flash in ESP32-MINI-format"
-			(at 156.21 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 156.21 49.53 0)
 			(effects
 				(font

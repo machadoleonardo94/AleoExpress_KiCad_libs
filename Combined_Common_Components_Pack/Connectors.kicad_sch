@@ -4748,24 +4748,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 54.61 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 54.61 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d894f55c-39f9-4dac-bac9-2d073f44aea7")
 		)
@@ -4828,15 +4810,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -5001,15 +4974,6 @@
 			)
 		)
 		(property "Description" "Connector Header 2 position 2.5mm Pitch 3A Through Hole -25℃~+85℃"
-			(at 63.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 63.5 96.52 0)
 			(effects
 				(font
@@ -5427,24 +5391,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "beb44346-0f6d-4996-a3f6-93f2a26c7e70")
 		)
@@ -5696,24 +5642,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
 			(at 53.34 53.34 0)
 			(effects
 				(font
@@ -6373,15 +6301,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 157.48 123.19 0)
 			(effects
 				(font

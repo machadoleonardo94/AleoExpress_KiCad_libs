@@ -457,6 +457,315 @@
 				)
 			)
 		)
+		(symbol "Converter_ACDC:HLK-5M05"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HLK-5M05"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
+				(at 10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Compact AC/DC board mount power module 5W, 5V 1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AC/DC module power supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*ACDC*Hi?Link*HLK?5M*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HLK-5M05_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.334 0.635)
+					(mid -4.699 0.2495)
+					(end -4.064 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 0.635)
+					(mid -3.429 1.0072)
+					(end -4.064 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -0.635) (xy -2.794 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.635) (xy 5.334 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.635) (xy 3.302 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.635) (xy 4.318 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 0.635) (xy 5.334 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HLK-5M05_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -5012,6 +5321,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 121.92) (xy 266.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc5f256-16fc-4a6a-aad6-0ecd8c6541a4")
+	)
+	(wire
+		(pts
 			(xy 109.22 125.73) (xy 109.22 128.27)
 		)
 		(stroke
@@ -5089,6 +5408,16 @@
 			(type default)
 		)
 		(uuid "1effa3a0-fd0b-416e-b413-aad9a499bd23")
+	)
+	(wire
+		(pts
+			(xy 264.16 116.84) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2162059e-ea25-4d04-a5a1-a17ad8ff9571")
 	)
 	(wire
 		(pts
@@ -5442,6 +5771,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 49.53) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da9ba6d-2271-4151-bf09-61f76989deba")
+	)
+	(wire
+		(pts
 			(xy 172.72 24.13) (xy 172.72 21.59)
 		)
 		(stroke
@@ -5529,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "57d4e8cd-3d47-4ce6-85fb-6795466f4a83")
+	)
+	(wire
+		(pts
+			(xy 217.17 21.59) (xy 222.25 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581cf813-b4e6-4dfe-9160-02917149766a")
 	)
 	(wire
 		(pts
@@ -6182,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 123.19) (xy 266.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfb67dc-0b47-4213-a37e-0d529b73b51d")
+	)
+	(wire
+		(pts
 			(xy 54.61 115.57) (xy 54.61 119.38)
 		)
 		(stroke
@@ -6332,6 +6691,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 49.53) (xy 116.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fdb32a-16af-49c5-b46f-61881be95a92")
+	)
+	(wire
+		(pts
 			(xy 33.02 69.85) (xy 30.48 69.85)
 		)
 		(stroke
@@ -6472,6 +6841,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 34.29) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73d2a93-45b3-45d3-bbe4-2ac70bbf34a1")
+	)
+	(wire
+		(pts
 			(xy 163.83 35.56) (xy 162.56 35.56)
 		)
 		(stroke
@@ -6492,6 +6871,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc875d3-8c3b-45d8-ad8a-27158de48cc4")
+	)
+	(wire
+		(pts
 			(xy 60.96 29.21) (xy 59.69 29.21)
 		)
 		(stroke
@@ -6509,6 +6898,16 @@
 			(type default)
 		)
 		(uuid "eeac262f-536e-4dac-a687-e4b557a13115")
+	)
+	(wire
+		(pts
+			(xy 242.57 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec11fff-8dea-4915-986b-9664aff64005")
 	)
 	(wire
 		(pts
@@ -6679,6 +7078,18 @@
 			(type none)
 		)
 		(uuid 9e12602b-df18-4149-a893-6dba681f8da6)
+	)
+	(rectangle
+		(start 234.315 106.68)
+		(end 274.32 130.175)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6c37aed-2188-44f0-af16-1aa1e0a4cbd7)
 	)
 	(rectangle
 		(start 13.97 99.06)
@@ -6890,6 +7301,50 @@
 			)
 		)
 	)
+	(global_label "cold"
+		(shape input)
+		(at 242.57 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b7b15be-bdeb-4642-90df-ac02b4edc26a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.533 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "hot"
+		(shape input)
+		(at 241.3 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4815a6e8-201a-4097-a545-77ec2629d0ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2911 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VTH"
 		(shape input)
 		(at 138.43 33.02 180)
@@ -6912,7 +7367,7 @@
 			)
 		)
 	)
-	(global_label "CE"
+	(global_label "CS"
 		(shape input)
 		(at 186.69 30.48 180)
 		(fields_autoplaced yes)
@@ -6924,7 +7379,7 @@
 		)
 		(uuid "71c43b7c-3e64-4868-854c-55fbaf63b7bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2858 30.48 0)
+			(at 181.2253 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7433,7 @@
 			)
 		)
 	)
-	(global_label "CE"
+	(global_label "CS"
 		(shape input)
 		(at 163.83 35.56 0)
 		(fields_autoplaced yes)
@@ -6990,7 +7445,7 @@
 		)
 		(uuid "c961a1ae-85b1-48f4-bf2c-fc3aa6089f64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.2342 35.56 0)
+			(at 169.2947 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,6 +7588,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Converter_ACDC:HLK-5M05")
+		(at 254 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03e98c3d-c52d-46d8-baa6-cb98ff43f188")
+		(property "Reference" "PS1"
+			(at 254 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HLK-5M05"
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
+			(at 264.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Compact AC/DC board mount power module 5W, 5V 1A"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcf6c89c-585e-4524-a6e8-0dfe22d7a6e5")
+		)
+		(pin "3"
+			(uuid "ffaa3281-c54b-42c8-a800-e7c1da78ce5f")
+		)
+		(pin "2"
+			(uuid "09423ade-6a7b-4469-9fc9-0c0749ea75e6")
+		)
+		(pin "4"
+			(uuid "3e04c069-842d-4cdb-8ed1-0cb40f6f4a3f")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 88.9 0)
 		(unit 1)
@@ -7253,15 +7782,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C84256"
 			(at 177.8 27.94 0)
 			(effects
@@ -7348,87 +7868,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 25.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 25.4 83.82 0)
 			(effects
 				(font
@@ -7732,87 +8171,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -8394,87 +8752,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fd82271d-20de-481d-ab60-37e82fde7f2a")
 		)
@@ -8668,87 +8945,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 274.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "233a572f-873f-43f3-b3d0-31cadc261523")
 		)
@@ -8809,15 +9005,6 @@
 			)
 		)
 		(property "Description" "Buck DC/DC Converter, 2A, 5V Output Voltage, 7-40V Input Voltage"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -8988,15 +9175,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 83.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C49023803"
 			(at 83.82 101.6 0)
 			(effects
@@ -9132,15 +9310,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 261.62 29.21 0)
 			(effects
 				(font
@@ -9766,15 +9935,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 231.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 231.14 76.2 0)
 			(effects
 				(font
@@ -10455,87 +10615,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 162.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e4ef4c04-95a1-489e-9423-cd974d6f1988")
 		)
@@ -10615,87 +10694,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 245.11 34.29 0)
 			(effects
 				(font
@@ -10852,24 +10850,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 101.6 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
 			(at 101.6 124.46 0)
 			(effects
 				(font
@@ -11160,87 +11140,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 152.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b730e0a-2908-483e-b428-94aa8166a784")
 		)
@@ -11251,6 +11150,72 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "653fe696-b307-4bd5-8cc1-3db5704e4b59")
+		(property "Reference" "#PWR108"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b83b73cc-9436-47ee-9d7d-f04dd31c93d0")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -11310,15 +11275,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 184.15 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25879"
 			(at 184.15 21.59 0)
 			(effects
@@ -11338,6 +11294,71 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68778e8e-cf14-4047-93be-42e7b039bcb5")
+		(property "Reference" "#PWR111"
+			(at 266.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.018 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3667b9f4-816e-4c36-924e-7db222449255")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR111")
 					(unit 1)
 				)
 			)
@@ -11537,24 +11558,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 109.22 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 109.22 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -11783,87 +11786,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1d1f12e0-a5f9-4d0c-a1ac-06b0c51069d2")
 		)
@@ -12008,87 +11930,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 266.7 34.29 0)
 			(effects
 				(font
@@ -12250,24 +12091,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 59.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 59.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8b944cb1-1d4d-467d-bbd6-3d8c86ba53fa")
 		)
@@ -12278,6 +12101,72 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77bef9a6-c4a4-496a-b5d4-832ed2abb1ab")
+		(property "Reference" "#PWR107"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9bb60b0-0f37-4e8b-9da3-f0016b09d3e8")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -12358,24 +12247,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "46047096-8763-4114-9b79-842f84773e43")
 		)
@@ -12440,15 +12311,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 231.14 83.82 0)
 			(effects
 				(font
@@ -12535,15 +12397,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 140.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "119c5fb4-70aa-4fb5-be25-65eed27729fd")
 		)
@@ -12603,15 +12456,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 238.76 72.39 0)
 			(effects
 				(font
@@ -12896,15 +12740,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 172.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C965817"
 			(at 172.72 27.94 0)
 			(effects
@@ -13131,6 +12966,72 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
 					(reference "#PWR64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939ca25e-eb6d-435b-9031-63df82c4eac7")
+		(property "Reference" "#PWR106"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf9bdc83-483a-4241-b861-a8b31ced3762")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
@@ -13408,15 +13309,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C965817"
 			(at 226.06 76.2 0)
 			(effects
@@ -13608,15 +13500,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 38.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "d91e394e-0686-4e35-b4ea-3bb3269071df")
 		)
@@ -13769,87 +13652,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -14074,24 +13876,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 66.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 66.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7eb1facd-6fd9-49f2-9862-37eecb65e6f0")
 		)
@@ -14171,87 +13955,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 228.6 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 228.6 34.29 0)
 			(effects
 				(font
@@ -14449,44 +14152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TPOWER(天源)"
-			(at 255.778 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C382139"
-			(at 267.462 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 255.27 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part Name" "1A锂电池充电IC"
 			(at 254.508 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 255.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,33 +14259,6 @@
 			)
 		)
 		(property "Manufacturer Part" "XL4001E1"
-			(at 43.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XLSEMI(芯龙)"
-			(at 43.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2988027"
-			(at 43.18 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 43.18 115.57 0)
 			(effects
 				(font
@@ -14847,15 +14487,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 208.28 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2999625"
 			(at 208.28 21.59 0)
 			(effects
@@ -14875,6 +14506,72 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 222.25 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be05b204-be72-4424-ad92-a93e3aba8e8f")
+		(property "Reference" "#PWR109"
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 222.25 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 222.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e688207-2b74-482f-82d2-4b18e12dc1b5")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -15131,15 +14828,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 226.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17520"
 			(at 226.06 83.82 0)
 			(effects
@@ -15226,87 +14914,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 219.71 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
 			(at 219.71 33.02 0)
 			(effects
 				(font
@@ -15439,15 +15046,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 86.36 115.57 0)
 			(effects
 				(font
@@ -15664,33 +15262,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 42.545 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 40.64 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C154901"
 			(at 25.4 72.39 90)
 			(effects
@@ -15701,78 +15272,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
 			(at 25.4 72.39 0)
 			(effects
 				(font
@@ -16135,15 +15634,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 267.97 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C17520"
 			(at 267.97 88.9 0)
 			(effects
@@ -16297,33 +15787,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 278.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 278.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 278.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 278.13 76.2 0)
 			(effects
 				(font
@@ -16486,87 +15949,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "1842729b-0e1b-4a68-bdb4-b566bf71bfd8")
 		)
@@ -16644,87 +16026,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 140.97 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -16960,25 +16261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TOPPOWER(南京拓微)"
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C379389"
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -17057,6 +16340,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f28a9c97-a693-430d-a045-8b4e894a4dc9")
+		(property "Reference" "#PWR110"
+			(at 266.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c4eb584-33de-44a7-99c8-6ad13e10ecc5")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/7990ce60-ce2d-4da1-ac1a-0f0a16c9254e"
+					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002K")
 		(at 160.02 40.64 0)
 		(unit 1)
@@ -17123,87 +16472,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -17849,87 +17117,6 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBER" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "eb76e4d6-7744-4465-b094-3d0050c1902a")
 		)
@@ -18009,87 +17196,6 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 234.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
 			(at 234.95 33.02 0)
 			(effects
 				(font

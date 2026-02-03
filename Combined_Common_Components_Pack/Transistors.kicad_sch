@@ -1564,15 +1564,6 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 50.8 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Observations" "60V 0.3A"
 			(at 58.674 50.8 90)
 			(effects
@@ -1745,33 +1736,6 @@
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
 			(at 52.07 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 69.215 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 71.12 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
