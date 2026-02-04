@@ -1286,6 +1286,16 @@
 			)
 		)
 	)
+	(text "Basic"
+		(exclude_from_sim no)
+		(at 47.244 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "363af464-99e1-46ff-b919-1eef90a6fa45")
+	)
 	(symbol
 		(lib_id "Transistor_BJT:BC807")
 		(at 34.29 31.75 0)
@@ -1392,6 +1402,107 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/36bf7309-9fc3-46ce-8643-e60be50ac833"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002K")
+		(at 50.8 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456934e2-c0db-45a6-a28d-770649feeaf9")
+		(property "Reference" "Q17"
+			(at 50.038 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002K"
+			(at 56.896 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 55.88 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 N-channel 115mA 2.5V 225mW 50pF 5pF 5Ω@10V 60V SOT-23 MOSFETs ROHS"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "60V 0.1A"
+			(at 58.674 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c4e7d26-8f68-43d4-9539-d76ab6e45ce7")
+		)
+		(pin "3"
+			(uuid "e1fac248-3294-42f7-a36e-87ac84fd5055")
+		)
+		(pin "2"
+			(uuid "43a9fc6f-edf0-457c-a8f5-55f9105a5d22")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/36bf7309-9fc3-46ce-8643-e60be50ac833"
+					(reference "Q17")
 					(unit 1)
 				)
 			)

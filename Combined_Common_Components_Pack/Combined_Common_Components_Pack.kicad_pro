@@ -446,12 +446,12 @@
       "Resistors"
     ],
     [
-      "1381f410-15ba-480c-b8e7-d9f156eccb54",
-      "Diodes"
+      "5d66c02b-43c6-47cc-adf8-9e937eddf5c2",
+      "Capacitors"
     ],
     [
-      "64993365-c2f4-4ade-9dbf-31217403fd86",
-      "ICs"
+      "1381f410-15ba-480c-b8e7-d9f156eccb54",
+      "Diodes"
     ],
     [
       "fd287e52-5b2b-4aeb-b67f-74078d3063e1",
@@ -462,6 +462,10 @@
       "Transistors"
     ],
     [
+      "f54435ba-8a19-494c-86c3-07289aa1e26f",
+      "Inductors"
+    ],
+    [
       "7990ce60-ce2d-4da1-ac1a-0f0a16c9254e",
       "Regulators"
     ],
@@ -470,8 +474,8 @@
       "Connectors"
     ],
     [
-      "5d66c02b-43c6-47cc-adf8-9e937eddf5c2",
-      "Capacitors"
+      "64993365-c2f4-4ade-9dbf-31217403fd86",
+      "ICs"
     ],
     [
       "cb13f388-8ee5-4775-ac76-d64bb37f3b9f",
@@ -480,10 +484,6 @@
     [
       "7a912ba4-5538-4106-ab1b-8c8a6dee2a15",
       "Misc circuits"
-    ],
-    [
-      "f54435ba-8a19-494c-86c3-07289aa1e26f",
-      "Inductors"
     ]
   ],
   "text_variables": {}

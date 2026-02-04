@@ -325,6 +325,18 @@
 		(uuid 39375311-34d3-4b5a-9bc6-854a0cc2de56)
 	)
 	(rectangle
+		(start 33.02 33.02)
+		(end 76.2 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57e71616-793f-4c44-927a-0b28e951c067)
+	)
+	(rectangle
 		(start 110.49 22.86)
 		(end 198.12 86.36)
 		(stroke
@@ -337,8 +349,8 @@
 		(uuid 8a3b3d93-64c0-47fa-ac55-02e123001a13)
 	)
 	(rectangle
-		(start 33.02 86.36)
-		(end 110.49 149.86)
+		(start 110.49 86.36)
+		(end 187.96 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -347,6 +359,42 @@
 			(type none)
 		)
 		(uuid afc759ed-92b9-4a59-b07e-e30a172821aa)
+	)
+	(rectangle
+		(start 76.2 33.02)
+		(end 110.49 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3fba862-f154-45dd-acfb-6c5036bf27b4)
+	)
+	(rectangle
+		(start 33.02 96.52)
+		(end 110.49 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5163e4d-2dac-4b29-82a2-2ebec2b7f8ff)
+	)
+	(rectangle
+		(start 33.02 86.36)
+		(end 110.49 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fd2bf580-d06a-4067-92dd-184f2ac3a6e0)
 	)
 	(text "PTH Radial Capacitors"
 		(exclude_from_sim no)
@@ -359,6 +407,18 @@
 			)
 		)
 		(uuid "0daa2f8d-af3e-43be-94e4-1564f0a0a4c2")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 52.832 100.838 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "28b7ad9d-16d2-4ceb-8fc0-e1927e355631")
 	)
 	(text "Basic 0805 10% Capacitors"
 		(exclude_from_sim no)
@@ -386,7 +446,7 @@
 	)
 	(text "SMD Electrolytic Capacitors"
 		(exclude_from_sim no)
-		(at 70.104 91.44 0)
+		(at 147.574 91.44 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -420,9 +480,231 @@
 		)
 		(uuid "b57cc705-ff60-468b-8775-15ffc264f202")
 	)
+	(text "Basic 0402 10% Capacitors"
+		(exclude_from_sim no)
+		(at 70.866 91.694 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d94aed41-6e14-4c3f-a843-45d55f91cd8b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e669f22-8dc5-42d4-be65-cfb35ae1ad8f")
+		(property "Reference" "C52"
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.8752 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46653"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Samsung Electro-Mechanics"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CL21B102KBCNNNC"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc251991-14e0-49a1-910b-11c6a979d882")
+		)
+		(pin "2"
+			(uuid "f79a4078-2a13-4acd-adaa-cd14f3ac551f")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13519b79-7b61-4d1d-b446-b829ec04f935")
+		(property "Reference" "C54"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 56.8452 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Samsung Electro-Mechanics"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CL05B104KB54PNC"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37de28b-7a33-4b26-8e8d-142695e0d361")
+		)
+		(pin "2"
+			(uuid "ff8ef413-27fa-4ee5-9273-918b14464f55")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 95.25 107.95 0)
+		(at 172.72 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -431,7 +713,7 @@
 		(dnp no)
 		(uuid "17ad73c6-d773-45e2-ae29-af42f740619a")
 		(property "Reference" "C17"
-			(at 92.71 105.41 0)
+			(at 170.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +722,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 93.98 110.49 0)
+			(at 171.45 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +731,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 94.2848 111.76 0)
+			(at 171.7548 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
-			(at 95.25 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +749,7 @@
 			)
 		)
 		(property "Description" "-55℃~+105℃ 10.5mm 2000hrs@105℃ 220uF 35V 80mΩ@100kHz 850mA@100kHz 8mm ±20% SMD,D8xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 95.25 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +758,7 @@
 			)
 		)
 		(property "LCSC" "C2162971"
-			(at 95.25 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +767,7 @@
 			)
 		)
 		(property "Manufacturer " "Rubycon"
-			(at 95.25 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,7 +776,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "35TKV220M8X10.5"
-			(at 95.25 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +785,7 @@
 			)
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
-			(at 99.06 108.966 90)
+			(at 176.53 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 62.23 0)
+		(at 41.91 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -535,7 +817,7 @@
 		(dnp no)
 		(uuid "2330918f-5ac8-4c72-8175-60a1e442e6bb")
 		(property "Reference" "C14"
-			(at 67.31 59.69 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,7 +826,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 67.31 64.77 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,7 +835,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 65.7352 66.04 0)
+			(at 42.8752 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +844,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +853,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +862,7 @@
 			)
 		)
 		(property "LCSC" "C28323"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +871,7 @@
 			)
 		)
 		(property "Manufacturer " "Samsung Electro-Mechanics"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +880,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CL21B105KBFNNNE"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +889,7 @@
 			)
 		)
 		(property "Observations" "Accepts other suppliers"
-			(at 64.77 62.23 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,7 +1019,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 48.26 0)
+		(at 64.77 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -745,7 +1027,7 @@
 		(dnp no)
 		(uuid "37826e4d-74f1-4d77-9d8a-d5caa21e82ee")
 		(property "Reference" "C9"
-			(at 55.88 45.72 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +1036,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 55.88 50.8 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +1045,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 54.3052 52.07 0)
+			(at 65.7352 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +1054,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1729.pdf"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +1063,7 @@
 			)
 		)
 		(property "Description" "22nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +1072,7 @@
 			)
 		)
 		(property "LCSC" "C1729"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +1081,7 @@
 			)
 		)
 		(property "Manufacturer " "Samsung Electro-Mechanics"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +1090,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CL21B223KBANNNC"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +1099,7 @@
 			)
 		)
 		(property "Observations" "Accepts other suppliers"
-			(at 53.34 48.26 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +1229,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 48.26 0)
+		(at 53.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -955,7 +1237,7 @@
 		(dnp no)
 		(uuid "40cd5784-d2f7-4482-b377-f3c26e88d894")
 		(property "Reference" "C7"
-			(at 44.45 45.72 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +1246,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 44.45 50.8 0)
+			(at 55.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +1255,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 42.8752 52.07 0)
+			(at 54.3052 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1273,7 @@
 			)
 		)
 		(property "Description" "10nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1282,7 @@
 			)
 		)
 		(property "LCSC" "C1710"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1291,7 @@
 			)
 		)
 		(property "Manufacturer " "Samsung Electro-Mechanics"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1300,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CL21B103KBANNNC"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1309,7 @@
 			)
 		)
 		(property "Observations" "Accepts other suppliers"
-			(at 41.91 48.26 0)
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1649,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 62.23 0)
+		(at 64.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1375,7 +1657,7 @@
 		(dnp no)
 		(uuid "7d6605d2-0fb4-4ebb-a383-fcc3e1b3d347")
 		(property "Reference" "C12"
-			(at 55.88 59.69 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1666,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 55.88 64.77 0)
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 54.3052 66.04 0)
+			(at 65.7352 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1693,7 @@
 			)
 		)
 		(property "Description" "470nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1702,7 @@
 			)
 		)
 		(property "LCSC" "C13967"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1711,7 @@
 			)
 		)
 		(property "Manufacturer " "Samsung Electro-Mechanics"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1720,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CL21B474KBFNNNE"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1729,7 @@
 			)
 		)
 		(property "Observations" "Accepts other suppliers"
-			(at 53.34 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1859,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 62.23 0)
+		(at 53.34 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1585,7 +1867,7 @@
 		(dnp no)
 		(uuid "97a00c12-11c0-4ba8-b217-9d5eff52ba0e")
 		(property "Reference" "C11"
-			(at 44.45 59.69 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,6 +1876,426 @@
 			)
 		)
 		(property "Value" "220nF"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 54.3052 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5378"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Samsung Electro-Mechanics"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CL21B224KBFNNNE"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc540d1-e8ca-4b79-80a1-1d3796e11636")
+		)
+		(pin "2"
+			(uuid "046960c8-76e7-4477-aa56-67d0c31cbac3")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 132.08 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b03750e-23d5-4be3-8dc3-f37dcd9574f8")
+		(property "Reference" "C19"
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+			(at 131.1148 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 10V 10Ω@100kHz 22uF ±10% CASE-A-3216-16(mm) Tantalum Capacitors ROHS"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129272"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "CEC(Shenzhen Zhenhua XinYun Elec)"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CA45-A-10V-22uF-K"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "10V Tantalum"
+			(at 135.89 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58cad1f1-81e7-4487-a273-620cb70d9985")
+		)
+		(pin "2"
+			(uuid "539dd70d-ac87-4d40-b60d-354790c1f125")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 146.05 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdf3be9f-636e-4dde-8f1f-d27598c074bc")
+		(property "Reference" "C18"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 145.0848 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88744"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Rubycon"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "35TZV100M6.3X8"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "35V 300mA 6.3x7.7mm"
+			(at 149.86 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "388ee7a1-4e1b-4080-ba78-0fa07ab9250a")
+		)
+		(pin "2"
+			(uuid "5561e7a2-d80c-4517-8752-e07532aa0ca3")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 158.75 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0b34487-4fa5-4b24-88df-4e4e105a156e")
+		(property "Reference" "C3"
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 157.7848 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25170691"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " " JARSON"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "RX1E221M0607"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "25V 600mA 6.3x7.7mm"
+			(at 162.56 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "980654d8-82be-4850-bbc0-5caed7cbb7d9")
+		)
+		(pin "2"
+			(uuid "c3315e98-d830-498c-b6e4-d3e439589acc")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbe36240-8c18-47a9-836c-1afaf12daed0")
+		(property "Reference" "C8"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -1620,428 +2322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5378"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer " "Samsung Electro-Mechanics"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part Number" "CL21B224KBFNNNE"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Observations" "Accepts other suppliers"
-			(at 41.91 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fc540d1-e8ca-4b79-80a1-1d3796e11636")
-		)
-		(pin "2"
-			(uuid "046960c8-76e7-4477-aa56-67d0c31cbac3")
-		)
-		(instances
-			(project "Combined_Common_Components_Pack"
-				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 54.61 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b03750e-23d5-4be3-8dc3-f37dcd9574f8")
-		(property "Reference" "C19"
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 53.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 53.6448 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
-			(at 54.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+125℃ 10V 10Ω@100kHz 22uF ±10% CASE-A-3216-16(mm) Tantalum Capacitors ROHS"
-			(at 54.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C129272"
-			(at 54.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer " "CEC(Shenzhen Zhenhua XinYun Elec)"
-			(at 54.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part Number" "CA45-A-10V-22uF-K"
-			(at 54.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Observations" "10V Tantalum"
-			(at 58.42 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58cad1f1-81e7-4487-a273-620cb70d9985")
-		)
-		(pin "2"
-			(uuid "539dd70d-ac87-4d40-b60d-354790c1f125")
-		)
-		(instances
-			(project "Combined_Common_Components_Pack"
-				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 68.58 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdf3be9f-636e-4dde-8f1f-d27598c074bc")
-		(property "Reference" "C18"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 67.6148 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C88744"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer " "Rubycon"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part Number" "35TZV100M6.3X8"
-			(at 68.58 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Observations" "35V 300mA 6.3x7.7mm"
-			(at 72.39 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "388ee7a1-4e1b-4080-ba78-0fa07ab9250a")
-		)
-		(pin "2"
-			(uuid "5561e7a2-d80c-4517-8752-e07532aa0ca3")
-		)
-		(instances
-			(project "Combined_Common_Components_Pack"
-				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 81.28 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0b34487-4fa5-4b24-88df-4e4e105a156e")
-		(property "Reference" "C3"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 80.3148 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25170691"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer " " JARSON"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part Number" "RX1E221M0607"
-			(at 81.28 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Observations" "25V 600mA 6.3x7.7mm"
-			(at 85.09 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "980654d8-82be-4850-bbc0-5caed7cbb7d9")
-		)
-		(pin "2"
-			(uuid "c3315e98-d830-498c-b6e4-d3e439589acc")
-		)
-		(instances
-			(project "Combined_Common_Components_Pack"
-				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 64.77 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbe36240-8c18-47a9-836c-1afaf12daed0")
-		(property "Reference" "C8"
-			(at 67.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 67.31 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 65.7352 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 64.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 64.77 48.26 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2332,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 64.77 48.26 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2341,7 @@
 			)
 		)
 		(property "Manufacturer " "YAGEO"
-			(at 64.77 48.26 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2350,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "CC0805KRX7R9BB104"
-			(at 64.77 48.26 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2359,7 @@
 			)
 		)
 		(property "Observations" "Accepts other suppliers"
-			(at 64.77 48.26 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,6 +2576,111 @@
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e453316a-b5a6-40bf-90be-744a119dc3a7")
+		(property "Reference" "C53"
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.8752 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Samsung Electro-Mechanics"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CL05B103KB5NNNC"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc9bbaa-98f9-4613-8cf6-a9ad83f0ce57")
+		)
+		(pin "2"
+			(uuid "2c2b6167-0e1e-49fd-baef-19c771a9e622")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C53")
 					(unit 1)
 				)
 			)

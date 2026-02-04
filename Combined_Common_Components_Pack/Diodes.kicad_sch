@@ -1599,7 +1599,7 @@
 		)
 	)
 	(rectangle
-		(start 31.75 39.37)
+		(start 21.59 39.37)
 		(end 58.42 59.69)
 		(stroke
 			(width 0)
@@ -1611,7 +1611,7 @@
 		(uuid 0cd7ffd6-5b9e-4b5e-a03b-dc283c9b82a7)
 	)
 	(rectangle
-		(start 31.75 59.69)
+		(start 21.59 59.69)
 		(end 58.42 85.09)
 		(stroke
 			(width 0)
@@ -1690,9 +1690,29 @@
 		)
 		(uuid "71649673-99cb-41ed-b939-9e8c807412b5")
 	)
+	(text "Extended"
+		(exclude_from_sim no)
+		(at 46.228 50.546 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9da02a5a-7c50-427f-931d-1767eabba2c2")
+	)
+	(text "Basic"
+		(exclude_from_sim no)
+		(at 28.194 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f7fbb9a-da32-43c1-b3fb-45d7dfa666c7")
+	)
 	(text "For signal and flywheel"
 		(exclude_from_sim no)
-		(at 45.466 41.656 0)
+		(at 38.862 42.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2254,6 +2274,110 @@
 			(project ""
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 27.94 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967f27bd-b4fd-428f-bae8-026f1d960bb3")
+		(property "Reference" "D40"
+			(at 23.622 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 30.988 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 23.495 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Independent 100V 300mA Surface Mount SOD-123"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " " ST(Semtech)"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "1N4148W"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "1V@150mA"
+			(at 33.02 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77df2a36-980f-43d4-99f0-08d67ce5c425")
+		)
+		(pin "1"
+			(uuid "e33f52ab-4636-4d13-94b8-421dd0e62141")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
+					(reference "D40")
 					(unit 1)
 				)
 			)

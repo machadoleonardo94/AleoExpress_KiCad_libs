@@ -3563,6 +3563,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 110.49 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95a37c23-3b79-4817-a0b4-4862298c880e")
+		(property "Reference" "F6"
+			(at 106.426 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 112.268 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 115.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polymeric PTC Resettable Fuse 48V 200mA Surface Mount 1206"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22446878"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "48V 200mA"
+			(at 110.49 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7f7467-2ee8-4def-b6c2-bd8c88d2d55c")
+		)
+		(pin "2"
+			(uuid "a5a651b2-bf29-4e2f-988c-5a1d4728385c")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1_Library_GF:R_SMD_0805")
 		(at 38.1 125.73 270)
 		(mirror x)
@@ -4369,8 +4454,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 123.19 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8831ab8-7f30-4d81-8ef9-260c3ef57d31")
+		(property "Reference" "F7"
+			(at 119.126 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 124.968 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 128.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C269167.pdf"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polymeric PTC Resettable Fuse 16V 1.5A Surface Mount 1210"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C269167"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "16V 1.5A"
+			(at 123.19 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd253a87-a334-41dc-af30-eeca7c3bab28")
+		)
+		(pin "2"
+			(uuid "10cfb090-d63b-4aa2-a6ac-fb59cfade859")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
-		(at 96.52 138.43 270)
+		(at 96.52 142.24 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4379,7 +4549,7 @@
 		(dnp no)
 		(uuid "f974af20-1b5b-49a9-ac0d-3609887cc2dc")
 		(property "Reference" "F2"
-			(at 96.52 135.89 90)
+			(at 96.52 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4557,7 @@
 			)
 		)
 		(property "Value" "20mm Fuse holder"
-			(at 96.52 140.97 90)
+			(at 96.52 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4565,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-			(at 96.52 140.208 90)
+			(at 96.52 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4574,7 @@
 			)
 		)
 		(property "Datasheet" "https://br.mouser.com/datasheet/2/87/Eaton_06202018__HTC_100M-1372276.pdf"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4583,7 @@
 			)
 		)
 		(property "Description" "Plugin Fuseholders ROHS"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4592,7 @@
 			)
 		)
 		(property "LCSC" "C3131"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4601,7 @@
 			)
 		)
 		(property "Manufacturer " "Xucheng Elec"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4610,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "5x20 BLX-A  XC-7"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4619,7 @@
 			)
 		)
 		(property "Observations" "For 5x20mm glass fuse"
-			(at 96.52 138.43 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4713,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -4581,7 +4751,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "10")
+					(page "3")
 				)
 			)
 		)
@@ -4619,7 +4789,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "5")
+					(page "10")
 				)
 			)
 		)
@@ -4695,7 +4865,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
@@ -4809,7 +4979,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -4847,7 +5017,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "12")
+					(page "7")
 				)
 			)
 		)
@@ -4885,7 +5055,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
