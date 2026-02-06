@@ -310,6 +310,167 @@
 				)
 			)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(rectangle
 		(start 205.74 22.86)
@@ -371,6 +532,18 @@
 		)
 		(uuid "08011edb-b9c6-467b-b26d-bdbfaa3889da")
 	)
+	(text "Trimpot 3/4 turn"
+		(exclude_from_sim no)
+		(at 240.284 91.694 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "543e07d6-153c-4e3b-90af-ae9f80997b26")
+	)
 	(text "Basic 0402 1% 62mW Resistors"
 		(exclude_from_sim no)
 		(at 59.944 27.178 0)
@@ -428,7 +601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f78da25-7ff4-47e7-afc3-cec1477717dd")
-		(property "Reference" "R40"
+		(property "Reference" "R10"
 			(at 52.07 35.56 90)
 			(effects
 				(font
@@ -507,7 +680,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R40")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -522,7 +695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "103cacc9-c69a-4573-a915-384b7d640ddc")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 234.95 43.18 90)
 			(effects
 				(font
@@ -601,7 +774,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -616,7 +789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "117e0589-388d-46ef-8f31-a3bbd2311809")
-		(property "Reference" "R42"
+		(property "Reference" "R12"
 			(at 69.85 35.56 90)
 			(effects
 				(font
@@ -695,7 +868,89 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R42")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 220.98 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1442a9e7-b41b-4695-b9f7-248cb0155e02")
+		(property "Reference" "RV3"
+			(at 220.98 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.7101 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5205021"
+			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f333d3b-65b6-449b-a5e3-4122bb1a6a56")
+		)
+		(pin "3"
+			(uuid "af66a24c-12bb-4f7a-a70f-665f80578d6f")
+		)
+		(pin "1"
+			(uuid "dd8bba7e-9495-42fd-9a39-d13b2baa0a55")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -710,7 +965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d4f6f8-db72-44d8-a2ce-c3032d880cc3")
-		(property "Reference" "R41"
+		(property "Reference" "R11"
 			(at 60.96 35.56 90)
 			(effects
 				(font
@@ -789,7 +1044,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R41")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -804,7 +1059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a8800c-de66-4b30-b3d8-ad2eeb213baf")
-		(property "Reference" "R31"
+		(property "Reference" "R28"
 			(at 175.26 46.99 90)
 			(effects
 				(font
@@ -883,7 +1138,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R31")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -898,7 +1153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20f3c867-a01c-4038-a2ae-ef7f196ce2c5")
-		(property "Reference" "R5"
+		(property "Reference" "R29"
 			(at 184.15 46.99 90)
 			(effects
 				(font
@@ -977,7 +1232,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R5")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1086,7 +1341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23a84db6-ee37-4105-9a47-49f4f2fb6674")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 104.14 34.29 90)
 			(effects
 				(font
@@ -1165,7 +1420,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1180,7 +1435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35a24713-6a77-49e5-b5c4-b1fa2865a227")
-		(property "Reference" "R50"
+		(property "Reference" "R37"
 			(at 69.85 58.42 90)
 			(effects
 				(font
@@ -1259,7 +1514,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R50")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a05ada3-743d-49e0-9c47-0384e1c364c5")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 43.18 46.99 90)
 			(effects
 				(font
@@ -1353,7 +1608,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1368,7 +1623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b08801c-3a96-4c0b-a8bd-ee2022aa9c96")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 215.9 43.18 90)
 			(effects
 				(font
@@ -1447,7 +1702,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1462,7 +1717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42470904-9e9a-4e70-b07c-6b1240459775")
-		(property "Reference" "R28"
+		(property "Reference" "R44"
 			(at 148.59 58.42 90)
 			(effects
 				(font
@@ -1541,7 +1796,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R28")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1556,7 +1811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "426e8cf8-2e3f-4a31-9973-d4c38a1ed673")
-		(property "Reference" "R21"
+		(property "Reference" "R51"
 			(at 139.7 71.12 90)
 			(effects
 				(font
@@ -1635,7 +1890,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R21")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -1650,7 +1905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44eaf4df-df1f-414f-ab2f-e0139e769b88")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 166.37 46.99 90)
 			(effects
 				(font
@@ -1729,7 +1984,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45392f1b-7636-45e9-815f-9ecf0abce7a2")
-		(property "Reference" "R37"
+		(property "Reference" "R17"
 			(at 25.4 46.99 90)
 			(effects
 				(font
@@ -1823,7 +2078,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R37")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1838,7 +2093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "578e7b6e-c448-4011-9c9e-339d5a212bba")
-		(property "Reference" "R27"
+		(property "Reference" "R6"
 			(at 166.37 34.29 90)
 			(effects
 				(font
@@ -1917,7 +2172,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R27")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1932,7 +2187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "594f4c23-1d42-450a-be31-4f3e30cdb2dc")
-		(property "Reference" "R46"
+		(property "Reference" "R34"
 			(at 43.18 58.42 90)
 			(effects
 				(font
@@ -2011,7 +2266,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R46")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cf65c56-cd53-4e5a-a032-895d5f5f17ea")
-		(property "Reference" "R30"
+		(property "Reference" "R45"
 			(at 166.37 58.42 90)
 			(effects
 				(font
@@ -2105,7 +2360,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R30")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6282172b-dfeb-4dcc-a850-36e70a53e077")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 193.04 46.99 90)
 			(effects
 				(font
@@ -2199,7 +2454,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64173f05-c543-494d-ba90-e50358bbef29")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 139.7 46.99 90)
 			(effects
 				(font
@@ -2293,7 +2548,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64de8b49-1f53-4d2e-8436-d129202c8cd9")
-		(property "Reference" "R43"
+		(property "Reference" "R46"
 			(at 25.4 71.12 90)
 			(effects
 				(font
@@ -2387,7 +2642,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R43")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66b99723-4b96-4ca4-86e6-68e091da7978")
-		(property "Reference" "R35"
+		(property "Reference" "R7"
 			(at 184.15 34.29 90)
 			(effects
 				(font
@@ -2481,7 +2736,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R35")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d40672e-0d28-481b-b082-f37bbf9d3dfe")
-		(property "Reference" "R44"
+		(property "Reference" "R32"
 			(at 25.4 58.42 90)
 			(effects
 				(font
@@ -2575,7 +2830,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R44")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "769c0484-4aa2-4cc2-a83c-bb7b14a5a54b")
-		(property "Reference" "R12"
+		(property "Reference" "R39"
 			(at 104.14 58.42 90)
 			(effects
 				(font
@@ -2669,7 +2924,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R12")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2684,7 +2939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78056960-e663-4bb0-b290-ebc69f96c64c")
-		(property "Reference" "R49"
+		(property "Reference" "R36"
 			(at 60.96 58.42 90)
 			(effects
 				(font
@@ -2763,7 +3018,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R49")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2778,7 +3033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8377800d-fe19-4289-95d3-08ee93e23c2b")
-		(property "Reference" "R4"
+		(property "Reference" "R42"
 			(at 130.81 58.42 90)
 			(effects
 				(font
@@ -2857,7 +3112,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R4")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2872,7 +3127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b91661-bbb8-49b6-9ced-a271b98d09fb")
-		(property "Reference" "R25"
+		(property "Reference" "R43"
 			(at 139.7 58.42 90)
 			(effects
 				(font
@@ -2951,7 +3206,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R25")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2966,7 +3221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "931b170f-385c-4265-b234-742130cab521")
-		(property "Reference" "R18"
+		(property "Reference" "R41"
 			(at 121.92 58.42 90)
 			(effects
 				(font
@@ -3045,7 +3300,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R18")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c1cfca8-3af7-408a-ba10-ff84b45ff43d")
-		(property "Reference" "R1"
+		(property "Reference" "R22"
 			(at 121.92 46.99 90)
 			(effects
 				(font
@@ -3139,7 +3394,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R1")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a419b0d1-fed5-42e0-a11e-38d72cbe7222")
-		(property "Reference" "R10"
+		(property "Reference" "R21"
 			(at 113.03 46.99 90)
 			(effects
 				(font
@@ -3233,7 +3488,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R10")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af97ce5a-6e5d-48b4-9162-ac5c6a735e9d")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 243.84 43.18 90)
 			(effects
 				(font
@@ -3336,7 +3591,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3351,7 +3606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7048f46-f0f5-4d95-aa9d-02a4afcbd990")
-		(property "Reference" "R24"
+		(property "Reference" "R50"
 			(at 130.81 71.12 90)
 			(effects
 				(font
@@ -3430,7 +3685,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R24")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -3445,7 +3700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf5bd89-7682-4cc6-99cb-f18688c7c08f")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 130.81 34.29 90)
 			(effects
 				(font
@@ -3524,7 +3779,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3539,7 +3794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd526ccf-1edc-4ddc-ae01-ca9486c25e22")
-		(property "Reference" "R17"
+		(property "Reference" "R5"
 			(at 139.7 34.29 90)
 			(effects
 				(font
@@ -3618,7 +3873,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R17")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce6d069-54fc-44e0-bc77-eff82a6286c3")
-		(property "Reference" "R15"
+		(property "Reference" "R40"
 			(at 113.03 58.42 90)
 			(effects
 				(font
@@ -3806,7 +4061,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R15")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3821,7 +4076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ceb1a0ad-57b2-46bd-8214-88e84c30b8e1")
-		(property "Reference" "R34"
+		(property "Reference" "R25"
 			(at 148.59 46.99 90)
 			(effects
 				(font
@@ -3900,7 +4155,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R34")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3915,7 +4170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d05fda36-ae6a-4806-8156-9d19409c9a6f")
-		(property "Reference" "R48"
+		(property "Reference" "R35"
 			(at 52.07 58.42 90)
 			(effects
 				(font
@@ -3994,7 +4249,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R48")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -4009,7 +4264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d578ad0c-4d68-4269-a48d-fc3e3001561d")
-		(property "Reference" "R45"
+		(property "Reference" "R33"
 			(at 34.29 58.42 90)
 			(effects
 				(font
@@ -4088,7 +4343,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R45")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6871b5c-c0ff-43eb-84ff-b3a92ac8d35a")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 130.81 46.99 90)
 			(effects
 				(font
@@ -4182,7 +4437,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7f9c053-3355-4f57-b049-531e77de924e")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 201.93 46.99 90)
 			(effects
 				(font
@@ -4276,7 +4531,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R33")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df19a665-d34a-470b-95b7-63772968081e")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 226.06 43.18 90)
 			(effects
 				(font
@@ -4370,7 +4625,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e009666a-99ed-4473-9ca9-8c67e3ab75cc")
-		(property "Reference" "R36"
+		(property "Reference" "R48"
 			(at 104.14 71.12 90)
 			(effects
 				(font
@@ -4558,7 +4813,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R36")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e65a169c-c354-4613-8d02-6655de95ec56")
-		(property "Reference" "R16"
+		(property "Reference" "R49"
 			(at 121.92 71.12 90)
 			(effects
 				(font
@@ -4652,7 +4907,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R16")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4667,7 +4922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e717d600-97f0-4cdb-bb0d-b186ea63a265")
-		(property "Reference" "R52"
+		(property "Reference" "R18"
 			(at 34.29 46.99 90)
 			(effects
 				(font
@@ -4746,7 +5001,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R52")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4761,7 +5016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed31b37f-80e7-410e-8e3d-ae8bd0f21afa")
-		(property "Reference" "R51"
+		(property "Reference" "R38"
 			(at 78.74 58.42 90)
 			(effects
 				(font
@@ -4840,7 +5095,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R51")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4855,7 +5110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed760d4b-4737-4ef3-9bf8-905b5ea04f0a")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 113.03 34.29 90)
 			(effects
 				(font
@@ -4934,7 +5189,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4949,7 +5204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f272a471-1296-4868-a580-808a25a270e8")
-		(property "Reference" "R38"
+		(property "Reference" "R8"
 			(at 25.4 35.56 90)
 			(effects
 				(font
@@ -5028,7 +5283,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R38")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f38eb404-4e32-4deb-a379-042a581d6858")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 121.92 34.29 90)
 			(effects
 				(font
@@ -5122,7 +5377,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f97fb513-a6b4-42f2-a81b-b887c3a1f1c4")
-		(property "Reference" "R39"
+		(property "Reference" "R9"
 			(at 43.18 35.56 90)
 			(effects
 				(font
@@ -5216,7 +5471,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/8dca950f-132e-4e19-a15e-941f37d6419c"
-					(reference "R39")
+					(reference "R9")
 					(unit 1)
 				)
 			)

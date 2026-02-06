@@ -1611,8 +1611,44 @@
 		(uuid 0cd7ffd6-5b9e-4b5e-a03b-dc283c9b82a7)
 	)
 	(rectangle
+		(start 21.59 63.5)
+		(end 34.29 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4963f7dd-74db-4ec3-967e-46570498c0e3)
+	)
+	(rectangle
+		(start 34.29 43.18)
+		(end 58.42 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87400193-dcf9-431b-872b-b2def3db5aa7)
+	)
+	(rectangle
+		(start 21.59 43.18)
+		(end 34.29 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f922418-91a6-47c7-a88c-89d1e779cb73)
+	)
+	(rectangle
 		(start 21.59 59.69)
-		(end 58.42 85.09)
+		(end 58.42 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -1623,7 +1659,7 @@
 		(uuid 9cd0053e-68ca-492e-9486-9ad278fb71e9)
 	)
 	(rectangle
-		(start 31.75 29.21)
+		(start 21.59 29.21)
 		(end 104.14 39.37)
 		(stroke
 			(width 0)
@@ -1648,7 +1684,7 @@
 	)
 	(rectangle
 		(start 58.42 59.69)
-		(end 104.14 85.09)
+		(end 104.14 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -1657,6 +1693,28 @@
 			(type none)
 		)
 		(uuid d1272794-5f4c-46a3-953c-a33befd84fde)
+	)
+	(rectangle
+		(start 34.29 63.5)
+		(end 58.42 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb4908aa-599b-47a3-b70b-c8e62b5b1655)
+	)
+	(text "Basic"
+		(exclude_from_sim no)
+		(at 27.178 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e63ae0c-b86d-48b6-ba1a-eaa106bee58f")
 	)
 	(text "For switched regulators"
 		(exclude_from_sim no)
@@ -1667,6 +1725,26 @@
 			)
 		)
 		(uuid "2243fd00-a433-46ed-a92f-4196b35130be")
+	)
+	(text "Basic"
+		(exclude_from_sim no)
+		(at 100.076 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41979ab3-7aab-42ce-9aa3-a7df8324543f")
+	)
+	(text "Basic"
+		(exclude_from_sim no)
+		(at 88.646 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48147e6a-71c8-4b04-8186-ff8bc0a0015e")
 	)
 	(text "Rectifiers"
 		(exclude_from_sim no)
@@ -1692,7 +1770,17 @@
 	)
 	(text "Extended"
 		(exclude_from_sim no)
-		(at 46.228 50.546 90)
+		(at 76.2 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ea2716e-8d46-404b-bbb3-4dc7de5b3f6c")
+	)
+	(text "Extended"
+		(exclude_from_sim no)
+		(at 47.498 51.816 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,9 +1788,19 @@
 		)
 		(uuid "9da02a5a-7c50-427f-931d-1767eabba2c2")
 	)
+	(text "Extended"
+		(exclude_from_sim no)
+		(at 45.72 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f35fe3c-5172-4b36-bb1d-68fa05ecdec2")
+	)
 	(text "Basic"
 		(exclude_from_sim no)
-		(at 28.194 55.88 0)
+		(at 26.924 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1712,7 +1810,7 @@
 	)
 	(text "For signal and flywheel"
 		(exclude_from_sim no)
-		(at 38.862 42.164 0)
+		(at 38.862 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,9 +1818,19 @@
 		)
 		(uuid "c47d62ad-1a02-4b23-bc29-4f67736c3191")
 	)
-	(text "VR 40V"
+	(text "Basic"
 		(exclude_from_sim no)
-		(at 79.248 56.642 0)
+		(at 63.754 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c54d2245-27b8-493a-ac62-2593f87776a0")
+	)
+	(text "VR=40V"
+		(exclude_from_sim no)
+		(at 93.218 42.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1732,7 +1840,7 @@
 	)
 	(text "Voltage protection"
 		(exclude_from_sim no)
-		(at 45.466 61.976 0)
+		(at 39.624 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1750,7 +1858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8a97a3-d71d-4783-8c56-5dbe66c246d8")
-		(property "Reference" "D34"
+		(property "Reference" "D9"
 			(at 67.31 71.1199 90)
 			(effects
 				(font
@@ -1813,6 +1921,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C64898"
+			(at 64.77 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3134388c-e28a-4399-8d13-0e184bc9ebde")
 		)
@@ -1822,7 +1939,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D34")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -1830,15 +1947,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 50.8 72.39 270)
+		(at 50.8 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e61cc7f-55eb-4789-8e99-86936671549c")
-		(property "Reference" "D5"
-			(at 51.816 69.85 90)
+		(property "Reference" "D13"
+			(at 51.816 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1964,7 @@
 			)
 		)
 		(property "Value" "Zener"
-			(at 51.562 75.184 90)
+			(at 51.562 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1973,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 50.8 72.39 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1982,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C181075.pdf"
-			(at 50.8 72.39 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Zener Diode Independent 15.3V~17.1V 500mW Surface Mount LL-34(SOD-80)"
-			(at 50.8 72.39 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +2000,7 @@
 			)
 		)
 		(property "LCSC" "C181075"
-			(at 50.8 72.39 0)
+			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +2009,7 @@
 			)
 		)
 		(property "Observations" "15V 500mW"
-			(at 48.26 72.898 0)
+			(at 48.26 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2025,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D5")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -1916,15 +2033,15 @@
 	)
 	(symbol
 		(lib_id "1_Library_GF:BAV21W")
-		(at 52.07 49.53 270)
+		(at 53.34 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "62c40ce0-752f-46f6-b55f-2ea79ed67511")
-		(property "Reference" "D3"
-			(at 54.61 49.53 0)
+		(property "Reference" "D8"
+			(at 55.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2049,7 @@
 			)
 		)
 		(property "Value" "BAV21W"
-			(at 49.53 49.53 0)
+			(at 50.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2057,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 46.99 49.53 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411211943_MDD-Microdiode-Semiconductor-BAV21W_C113947.pdf"
-			(at 44.45 48.26 0)
+			(at 45.72 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +2075,7 @@
 			)
 		)
 		(property "Description" "250V Independent Type 1.25V@200mA 50ns 200mA SOD-123 Switching Diodes ROHS"
-			(at 52.07 49.53 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2084,7 @@
 			)
 		)
 		(property "Manufacturer " "MDD(Microdiode Semiconductor)"
-			(at 52.07 49.53 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2093,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "BAV21W"
-			(at 52.07 49.53 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2102,7 @@
 			)
 		)
 		(property "LCSC" "C113947"
-			(at 52.07 49.53 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2119,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2017,7 +2134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c40e8f-4413-4a04-8a57-996b84193313")
-		(property "Reference" "D16"
+		(property "Reference" "D5"
 			(at 96.266 49.53 0)
 			(effects
 				(font
@@ -2060,7 +2177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C727065"
+		(property "LCSC" "C22452"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -2105,7 +2222,98 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D16")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 27.94 74.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76bfdf94-7a8f-4753-9d98-ce0a0fd49936")
+		(property "Reference" "D11"
+			(at 25.146 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 24.384 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 31.115 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 27.94 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 Pair Common Cathode 1.25V@150mA 2.5uA@70V 200mA 225mW 2A 6ns 70V SOT-23 Switching Diodes ROHS"
+			(at 27.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C68978"
+			(at 27.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "1.25V@150mA"
+			(at 31.242 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1351ec6f-cbda-4630-b1cc-3a4b6ff9541e")
+		)
+		(pin "3"
+			(uuid "e335ba8b-f6b8-4d16-b838-85da4fae38fe")
+		)
+		(pin "1"
+			(uuid "de655c25-4593-41e9-a80a-8fd286f18641")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8039decd-925d-4e27-9e67-e00c7e41e3db")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 76.2 46.482 90)
 			(effects
 				(font
@@ -2191,7 +2399,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9605ada3-0652-448b-ac0d-5b58d993f9a5")
-		(property "Reference" "D35"
+		(property "Reference" "D10"
 			(at 89.154 73.406 0)
 			(effects
 				(font
@@ -2273,7 +2481,7 @@
 		(instances
 			(project ""
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D35")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2281,15 +2489,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 27.94 49.53 270)
+		(at 26.67 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "967f27bd-b4fd-428f-bae8-026f1d960bb3")
-		(property "Reference" "D40"
-			(at 23.622 46.99 90)
+		(property "Reference" "D6"
+			(at 23.368 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2506,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 30.988 54.356 0)
+			(at 29.718 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2515,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 23.495 49.53 0)
+			(at 22.225 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 27.94 49.53 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2533,7 @@
 			)
 		)
 		(property "Description" "Diode Independent 100V 300mA Surface Mount SOD-123"
-			(at 27.94 49.53 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2542,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 27.94 49.53 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2551,7 @@
 			)
 		)
 		(property "Manufacturer " " ST(Semtech)"
-			(at 27.94 49.53 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2560,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "1N4148W"
-			(at 27.94 49.53 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2569,7 @@
 			)
 		)
 		(property "Observations" "1V@150mA"
-			(at 33.02 50.546 0)
+			(at 31.75 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2585,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D40")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2385,7 +2593,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
-		(at 39.37 73.66 270)
+		(at 40.64 74.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2393,8 +2601,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc04cc2c-f5dc-44d6-bbeb-f61924d2c1b9")
-		(property "Reference" "D7"
-			(at 36.576 70.358 0)
+		(property "Reference" "D12"
+			(at 37.846 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2611,7 @@
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 35.814 83.058 0)
+			(at 37.084 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2620,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 42.545 71.755 0)
+			(at 43.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2630,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 39.37 76.708 0)
+			(at 40.64 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2639,7 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 39.37 73.66 0)
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2648,7 @@
 			)
 		)
 		(property "LCSC" "C47546"
-			(at 39.37 73.66 0)
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,8 +2656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Observations" "Dual 800mV@100mA"
-			(at 42.672 74.168 0)
+		(property "Observations" "800mV@100mA"
+			(at 43.942 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2676,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D7")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2476,15 +2684,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 38.1 49.53 270)
+		(at 39.37 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bcf9d761-e723-4d9b-a1a6-cc10b09cfbff")
-		(property "Reference" "D1"
-			(at 35.052 46.99 90)
+		(property "Reference" "D7"
+			(at 36.322 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2701,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 41.148 54.356 0)
+			(at 42.418 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2710,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 33.655 49.53 0)
+			(at 34.925 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2719,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 38.1 49.53 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2728,7 @@
 			)
 		)
 		(property "Description" "Diode Independent 100V 300mA Surface Mount SOD-123"
-			(at 38.1 49.53 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2737,7 @@
 			)
 		)
 		(property "LCSC" "C83528"
-			(at 38.1 49.53 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2746,7 @@
 			)
 		)
 		(property "Manufacturer " "DIODES"
-			(at 38.1 49.53 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2755,7 @@
 			)
 		)
 		(property "Mfr. Part Number" "1N4148W-7-F"
-			(at 38.1 49.53 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2764,7 @@
 			)
 		)
 		(property "Observations" "900mV@300mA"
-			(at 43.18 50.546 0)
+			(at 44.45 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2780,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2587,7 +2795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7ca0e7b-36c1-456d-b764-a84b6efad60f")
-		(property "Reference" "D17"
+		(property "Reference" "D4"
 			(at 90.678 46.482 90)
 			(effects
 				(font
@@ -2674,7 +2882,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D17")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2689,7 +2897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0bdd0b5-e6e6-4ac5-9f8b-cab79061b52b")
-		(property "Reference" "D14"
+		(property "Reference" "D2"
 			(at 60.198 46.736 90)
 			(effects
 				(font
@@ -2734,7 +2942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909920"
+		(property "LCSC" "C2480"
 			(at 64.77 49.53 90)
 			(effects
 				(font
@@ -2760,7 +2968,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
-					(reference "D14")
+					(reference "D2")
 					(unit 1)
 				)
 			)

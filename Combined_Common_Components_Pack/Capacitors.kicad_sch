@@ -501,7 +501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e669f22-8dc5-42d4-be65-cfb35ae1ad8f")
-		(property "Reference" "C52"
+		(property "Reference" "C6"
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -591,7 +591,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C52")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -606,7 +606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13519b79-7b61-4d1d-b446-b829ec04f935")
-		(property "Reference" "C54"
+		(property "Reference" "C22"
 			(at 58.42 106.68 0)
 			(effects
 				(font
@@ -696,7 +696,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C54")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -712,7 +712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17ad73c6-d773-45e2-ae29-af42f740619a")
-		(property "Reference" "C17"
+		(property "Reference" "C20"
 			(at 170.18 105.41 0)
 			(effects
 				(font
@@ -801,7 +801,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C17")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -816,7 +816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2330918f-5ac8-4c72-8175-60a1e442e6bb")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 44.45 72.39 0)
 			(effects
 				(font
@@ -906,7 +906,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -921,7 +921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2ca7b9-4d7d-4da6-9bb1-5fdd616dabf8")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 87.63 45.72 0)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1026,7 +1026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37826e4d-74f1-4d77-9d8a-d5caa21e82ee")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 67.31 45.72 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1132,7 +1132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0a1b0a-7999-40aa-b3af-26c50710968a")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 134.62 41.91 0)
 			(effects
 				(font
@@ -1221,7 +1221,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1341,7 +1341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "420214c9-8df5-4d87-8961-8a3b16dc591e")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 87.63 59.69 0)
 			(effects
 				(font
@@ -1431,7 +1431,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -1447,7 +1447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47d657c3-296e-47cd-90eb-3fbfbc0cac45")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -1536,7 +1536,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1551,7 +1551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a313ecd-decc-430e-9642-a1b9ec581532")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1656,7 +1656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d6605d2-0fb4-4ebb-a383-fcc3e1b3d347")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -1746,7 +1746,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1866,7 +1866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97a00c12-11c0-4ba8-b217-9d5eff52ba0e")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1972,7 +1972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b03750e-23d5-4be3-8dc3-f37dcd9574f8")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -2061,7 +2061,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b34487-4fa5-4b24-88df-4e4e105a156e")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 156.21 105.41 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbe36240-8c18-47a9-836c-1afaf12daed0")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 44.45 59.69 0)
 			(effects
 				(font
@@ -2376,7 +2376,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2392,7 +2392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0a95bb4-3a62-4e5e-9176-0d20ad9b13bb")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 216.662 42.164 0)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2486,7 +2486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fb646f-940d-4127-bc52-a53e4aed2314")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 147.32 41.91 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e453316a-b5a6-40bf-90be-744a119dc3a7")
-		(property "Reference" "C53"
+		(property "Reference" "C21"
 			(at 44.45 106.68 0)
 			(effects
 				(font
@@ -2680,7 +2680,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C53")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2696,7 +2696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0f8c21f-daec-49bd-b72c-f2124c15e2fd")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 161.798 42.418 0)
 			(effects
 				(font
@@ -2785,7 +2785,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)

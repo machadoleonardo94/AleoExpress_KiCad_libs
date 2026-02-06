@@ -1666,7 +1666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc3d475-717e-420e-a8ec-fa3bdca197a2")
-		(property "Reference" "D4"
+		(property "Reference" "D15"
 			(at 81.788 33.274 90)
 			(effects
 				(font
@@ -1738,7 +1738,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D4")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1747,15 +1747,13 @@
 	(symbol
 		(lib_id "Isolator:PC817")
 		(at 41.91 53.34 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "462f48ca-0bf5-4bf4-9bd1-29e19590165a")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -1772,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
-			(at 46.99 58.42 0)
+			(at 36.83 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,13 +1817,12 @@
 				(hide yes)
 			)
 		)
-		(property "Observations" "Accepts other suppliers"
-			(at 41.91 53.34 0)
+		(property "Observations" "Extended"
+			(at 41.656 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1843,7 +1840,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1858,7 +1855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "920251ea-a8d7-424a-9894-01e7a67d2f0b")
-		(property "Reference" "D23"
+		(property "Reference" "D17"
 			(at 102.108 33.02 90)
 			(effects
 				(font
@@ -1930,7 +1927,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D23")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -1946,7 +1943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d906e42-93f1-4c58-b124-df7382c40bec")
-		(property "Reference" "D41"
+		(property "Reference" "D18"
 			(at 121.3564 26.67 0)
 			(effects
 				(font
@@ -2040,7 +2037,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D41")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2055,7 +2052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a14607fb-77e1-41c5-b880-556fc1d5c679")
-		(property "Reference" "D22"
+		(property "Reference" "D14"
 			(at 70.358 33.02 90)
 			(effects
 				(font
@@ -2127,7 +2124,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D22")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaba4ff2-4a9d-4494-a812-b62a6f38166d")
-		(property "Reference" "U19"
+		(property "Reference" "U1"
 			(at 41.91 29.718 0)
 			(effects
 				(font
@@ -2218,7 +2215,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "U19")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3ce8b26-a19b-4fea-905f-08af8862f7a0")
-		(property "Reference" "D24"
+		(property "Reference" "D20"
 			(at 89.662 50.546 0)
 			(effects
 				(font
@@ -2310,7 +2307,118 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D24")
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:PC817")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c00fdcd9-a5b6-4503-84b2-a7dc1f8e8c75")
+		(property "Reference" "U3"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-817"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/365/Sharpelectronics_08292023_73758-3310502.pdf"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-30℃~+110℃ 1 1.2V 100mV@1mA,20mA 35V 3us 4us@2mA,100Ω 50% 50mA 50mA 5kV 600% 6V DC Phototransistor SMD-4P Transistor, Photovoltaic Output Optoisolators ROHS"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Slkor"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "PC817B"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Basic"
+			(at 41.91 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C109227"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca8845a-f58a-4fa6-a9d8-ddb9ef815e46")
+		)
+		(pin "2"
+			(uuid "7d459470-287f-416f-98db-f28dc32d31e5")
+		)
+		(pin "3"
+			(uuid "552f9f69-825a-41d1-af23-89021144024d")
+		)
+		(pin "4"
+			(uuid "a5b4c482-a25f-484a-87e7-698ea7b51da1")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9e53d99-f4b2-48a1-b2bd-d1ee5c52e795")
-		(property "Reference" "D2"
+		(property "Reference" "D19"
 			(at 69.342 50.8 0)
 			(effects
 				(font
@@ -2402,7 +2510,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D2")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0ab8a43-aa47-4691-8ec6-9bb139628f7f")
-		(property "Reference" "D21"
+		(property "Reference" "D16"
 			(at 91.948 33.274 90)
 			(effects
 				(font
@@ -2489,7 +2597,7 @@
 		(instances
 			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/fd287e52-5b2b-4aeb-b67f-74078d3063e1"
-					(reference "D21")
+					(reference "D16")
 					(unit 1)
 				)
 			)
