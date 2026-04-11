@@ -1,0 +1,129 @@
+(footprint "18650-1S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.461 -1.905 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b1ab858-326f-4c25-8c72-91ce6e3a2b6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "18650-1S"
+		(at 16.891 5.842 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b9f18a9-db00-454f-9cc0-232aca8816f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a29b219e-0966-459c-a88e-af74df4e45cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10b3fd68-7dc9-45ff-94cb-a03442c62b0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start 0 0)
+		(end 18 65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8c8d53d8-4e73-4f26-a026-7b06198e6daa")
+	)
+	(fp_rect
+		(start 5 -1.2)
+		(end 13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "970b794c-dbf9-4881-a46d-71c43ed29b57")
+	)
+	(fp_text user "18650"
+		(at 7.493 25.908 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c02a729-fc17-47cb-8d48-64bf73ff0e82")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 5.715 5.334 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8321968c-a6e1-4c98-ac4c-6d70898e68c1")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.096 3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccbebe82-16b9-4418-bd6c-bda52937ec59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/GitHub/AleoExpress_KiCad_libs/Step files/18650.step"
+		(offset
+			(xyz 9 0 9.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

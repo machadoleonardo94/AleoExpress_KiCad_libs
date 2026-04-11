@@ -1,0 +1,196 @@
+(footprint "Speaker_4R_3W_35x25mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SPK"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88d8cf96-1ae8-430a-9563-14ea6cf6d5ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Speaker_4R_3W_35x25mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77012462-b2d6-4440-999e-e328b492d46b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://pt.aliexpress.com/item/1005008626624201.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9deb720-a836-4a84-8612-2989afac81e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "35x25mm 4R 3W Speaker"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "750688cb-d8a5-48e0-892c-f799c4665cf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -12.7 -12.446)
+		(end -12.7 12.554)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20f9dcf2-bc5c-4d57-a4c2-f27c5fe03035")
+	)
+	(fp_line
+		(start -7.699999 17.553999)
+		(end 7.299999 17.553999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75f711f8-09ec-4781-994e-2c3f6199ee1f")
+	)
+	(fp_line
+		(start 7.299999 -17.446001)
+		(end -7.700001 -17.446001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8785c3a-d311-492c-be35-b2ce6cdeefa8")
+	)
+	(fp_line
+		(start 12.3 12.554)
+		(end 12.3 -12.446)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a446a84d-a074-4c6c-b21a-d3570dd4f95f")
+	)
+	(fp_arc
+		(start -12.7 -12.446)
+		(mid -11.235534 -15.981535)
+		(end -7.700001 -17.446001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e93fa53c-b9e2-438e-89e0-c75dcfcd8c2f")
+	)
+	(fp_arc
+		(start -7.699999 17.553999)
+		(mid -11.235534 16.089533)
+		(end -12.7 12.554)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d5016a4-e1e0-43f6-a3cf-92dfee5cf0e3")
+	)
+	(fp_arc
+		(start 7.299999 -17.446001)
+		(mid 10.835534 -15.981535)
+		(end 12.3 -12.446)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5a64e26-c2d6-49bd-a7b1-36b3b0791899")
+	)
+	(fp_arc
+		(start 12.3 12.554)
+		(mid 10.835534 16.089534)
+		(end 7.299999 17.553999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d873847d-d8fa-41f2-86cc-c96637235969")
+	)
+	(fp_line
+		(start -11.726253 5.156929)
+		(end -11.726253 -4.871153)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "403230b5-9efd-48dd-8a02-7917a8418641")
+	)
+	(fp_line
+		(start 11.411899 -4.871153)
+		(end 11.411899 5.156929)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2e5c74a9-ef88-4099-a375-93d90534ee01")
+	)
+	(fp_arc
+		(start -11.726253 -4.871153)
+		(mid -0.157177 -16.440229)
+		(end 11.411899 -4.871153)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5993fc6-1396-4a64-b1ab-c03745350435")
+	)
+	(fp_arc
+		(start 11.411899 5.156929)
+		(mid -0.157177 16.726005)
+		(end -11.726253 5.156929)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ab1724aa-b327-4f5b-ae74-d9bb97341746")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47d01d92-4259-4702-89e2-cb214764b251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
