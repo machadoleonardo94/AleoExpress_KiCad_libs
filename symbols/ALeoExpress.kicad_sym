@@ -6303,7 +6303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6313,6 +6313,24 @@
 			)
 		)
 		(property "Description" "I2S 2W Audio Module"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C910544"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://pt.aliexpress.com/item/1005007852632407.html"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6464,14 +6482,14 @@
 			(pin input line
 				(at 20.32 -2.54 180)
 				(length 2.54)
-				(name "Out+"
+				(name "Out-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6482,7 +6500,7 @@
 			(pin input line
 				(at 20.32 -7.62 180)
 				(length 2.54)
-				(name "Out-"
+				(name "Out+"
 					(effects
 						(font
 							(size 1.27 1.27)

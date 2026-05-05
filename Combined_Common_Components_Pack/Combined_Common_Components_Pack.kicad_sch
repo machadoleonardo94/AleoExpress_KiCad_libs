@@ -2570,6 +2570,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 95.25 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb53562-8302-4e0d-9e9e-d012989d3b8c")
+		(property "Reference" "F8"
+			(at 91.186 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 97.028 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C269167.pdf"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polymeric PTC Resettable Fuse 30V 2A Surface Mount 1812"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2760293"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "30V 2A"
+			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "780eaee6-6f67-4676-b530-227cf70ba6df")
+		)
+		(pin "2"
+			(uuid "a99a5d04-9c58-471a-9e26-ddcfc9484216")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 115.57 120.65 0)
 		(unit 1)

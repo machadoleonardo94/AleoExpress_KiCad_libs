@@ -466,4 +466,15 @@
 		(uuid "f46a9c54-a384-4569-b645-814c445619a3")
 	)
 	(embedded_fonts no)
+	(model "C:/GitHub/AleoExpress_KiCad_libs/Step files/ESOP-8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

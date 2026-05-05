@@ -487,4 +487,15 @@
 		(uuid "b8323840-4551-4ee2-9ba3-c97027ccb84a")
 	)
 	(embedded_fonts no)
+	(model "C:/GitHub/AleoExpress_KiCad_libs/Step files/tf-card-hinged_8P.step"
+		(offset
+			(xyz 0 1.2 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

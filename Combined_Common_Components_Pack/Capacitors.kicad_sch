@@ -1550,6 +1550,111 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 54.61 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74375bd6-f39f-458e-a6da-ecd17b3dea6d")
+		(property "Reference" "C61"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nF"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.5752 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1729.pdf"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33nF ±10% 50V Ceramic Capacitor X7R 0805"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107150"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "YAGEO"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "CC0805KRX7R9BB333"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb2996b-22ac-40bc-b457-e57b9dc49d21")
+		)
+		(pin "2"
+			(uuid "a170622c-b6a1-46de-bc5d-afa28e689497")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 97.79 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
