@@ -2511,7 +2511,7 @@
 			(uuid "e786e2ab-0761-4e5c-a5bb-68772c7f4243")
 		)
 		(instances
-			(project ""
+			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/1381f410-15ba-480c-b8e7-d9f156eccb54"
 					(reference "D10")
 					(unit 1)

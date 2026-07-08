@@ -462,6 +462,18 @@
 		)
 		(uuid "4ab2531e-deb7-48bc-ab3f-c8554f52ab73")
 	)
+	(text "Aluminum-polymer Capacitor"
+		(exclude_from_sim no)
+		(at 149.606 64.008 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "66592c0a-f3dd-4b28-9aca-24b4dcb498b5")
+	)
 	(text "25V"
 		(exclude_from_sim no)
 		(at 90.932 37.338 0)
@@ -497,6 +509,138 @@
 			)
 		)
 		(uuid "d94aed41-6e14-4c3f-a843-45d55f91cd8b")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 158.75 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b79e495-d440-4c0a-ad64-719aeda701be")
+		(property "Reference" "C62"
+			(at 160.274 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF 25V"
+			(at 154.178 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 159.7152 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303231030_Honor-Elec-HG1V107M5509PC_C5438847.pdf"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220uF 25V 3.5A@100kHz 20mΩ@100kHz ±20% Through Hole,D6.3xL12mm Aluminum - Polymer Capacitors RoHS"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5438847"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer " "Honor Elec"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "HG1V107M5509PC"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Observations" "Accepts other suppliers"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c1d3834-9075-48ac-8a1c-7f90e3927d7b")
+		)
+		(pin "2"
+			(uuid "3fe2d7ca-ed53-4c2b-8163-77dc4a3c3441")
+		)
+		(instances
+			(project "Combined_Common_Components_Pack"
+				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49/5d66c02b-43c6-47cc-adf8-9e937eddf5c2"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")

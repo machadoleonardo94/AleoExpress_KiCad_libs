@@ -1901,7 +1901,7 @@
 			(uuid "24548796-12b2-41b6-b978-7381e23bc418")
 		)
 		(instances
-			(project ""
+			(project "Combined_Common_Components_Pack"
 				(path "/59e42e8e-5444-465a-b7a8-ffbd342a8d49"
 					(reference "SW1")
 					(unit 1)

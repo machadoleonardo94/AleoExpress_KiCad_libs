@@ -1,0 +1,196 @@
+﻿Parts by category, value, footprint, status (basic or extended), and LCSC part number
+Exemple: Resistor, 10k, 0805, basic, C25744, description
+
+//Resistors:
+Resistor, , , , C114758, RES 120Ω ±1% 62.5mW 0402
+Resistor, , , , C3013311, 
+Resistor, , , , C36871, 
+Resistor, , , , C25917, 
+Resistor, , , , C25109, 
+Resistor, 0, R_0805_2012Metric, , C17477, -55℃~+155℃ 0Ω 125mW 150V Thick Film Resistor ±1% ±800ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 1.2k, R_0805_2012Metric, , C17379, -55℃~+155℃ 1.2kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 1.5k, R_0805_2012Metric, , C4310, 1.5kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 1.5k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25867, -55℃~+155℃ 1.5kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 10, R_0805_2012Metric, , C17415, -55℃~+155℃ 10Ω 125mW 150V Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 100, R_0805_2012Metric, , C17408, -55℃~+155℃ 100Ω 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 100, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25076, -55℃~+155℃ 100Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 100k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25741, -55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 10k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25744, -55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 120, R_0805_2012Metric, , C17437, -55℃~+155℃ 120Ω 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 12k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25752, -55℃~+155℃ 12kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 12k, R_0805_2012Metric, , C17444, -55℃~+155℃ 125mW 12kΩ 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 150, R_0805_2012Metric, , C17471, -55℃~+155℃ 125mW 150V 150Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 150k, R_0805_2012Metric, , C17470, -55℃~+155℃ 125mW 150V 150kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 15k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25756, -55℃~+155℃ 15kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 15k, R_0805_2012Metric, , C17475, -55℃~+155℃ 125mW 150V 15kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 1k, R_0805_2012Metric, , C17513, -55℃~+155℃ 125mW 150V 1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 1k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C11702, -55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 1M, R_0805_2012Metric, , C17514, -55℃~+155℃ 125mW 150V 1MΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 2.7k, R_0805_2012Metric, , C17530, -55℃~+155℃ 125mW 150V 2.7kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 200k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25764, -55℃~+155℃ 200kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 200mR 250mW, R_1206_3216Metric_Pad1.30x1.75mm_HandSolder, , C111857, 220mΩ ±5% 250mW 1206 Thick Film Resistor
+Resistor, 20k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25765, -55℃~+155℃ 20kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 20k, R_0805_2012Metric, , C4328, -55℃~+155℃ 125mW 150V 20kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 220, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25091, -55℃~+155℃ 220Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 220k, R_0805_2012Metric, , C17556, -55℃~+155℃ 125mW 150V 220kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 220mR 1W 1%, R_1206_3216Metric_Pad1.30x1.75mm_HandSolder, , C2683384, 220mΩ ±1% 1W Current Sense Resistor
+Resistor, 22k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25768, -55℃~+155℃ 22kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 22k, R_0805_2012Metric, , C17560, -55℃~+155℃ 125mW 150V 22kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 250mR 1W 1%, R_1206_3216Metric_Pad1.30x1.75mm_HandSolder, , C2932845, 1W 250mΩ Current Sense Resistor ±1% 1206 Chip Resistor - Surface Mount RoHS
+Resistor, 3.3k, R_0805_2012Metric, , C26010, -55℃~+155℃ 125mW 150V 3.3kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 3.9k, R_0805_2012Metric, , C17614, -55℃~+155℃ 125mW 150V 3.9kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 300, R_0805_2012Metric, , C17617, -55℃~+155℃ 125mW 150V 300Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 330, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25104, -55℃~+155℃ 330Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 33k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25779, -55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 33k, R_0805_2012Metric, , C17633, -55℃~+155℃ 125mW 150V 33kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 4.7k, R_0805_2012Metric, , C17673, -55℃~+155℃ 125mW 150V 4.7kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 470, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25117, -55℃~+155℃ 470Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 47k, R_0805_2012Metric, , C17713, -55℃~+155℃ 125mW 150V 47kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 47k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25792, -55℃~+155℃ 47kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 5.1k, R_0805_2012Metric, , C17724, -55℃~+155℃ 125mW 150V 5.1Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 5.6k, R_0805_2012Metric, , C4382, -55℃~+155℃ 125mW 150V 20kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 510, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C25123, -55℃~+155℃ 50V 510Ω 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
+Resistor, 560, R_0805_2012Metric, , C28636, -55℃~+155℃ 125mW 150V 560Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 6.8k, R_0805_2012Metric, , C17772, -55℃~+155℃ 125mW 150V 6.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Resistor, 8.2k, R_0805_2012Metric, , C17828, -55℃~+155℃ 125mW 150V 8.2kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+
+//Capacitors:
+Capacitor, 1000uF, CP_Radial_D12.5mm_P5.00mm, , C88743, 1000uF 35V ±20% Plugin,D12.5xL20mm Aluminum Electrolytic Capacitors - Leaded ROHS
+Capacitor, 100nF, C_0805_2012Metric, , C49678, 50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 100nF, C_0805_2012Metric, , C307331, 100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 100uF, CP_Elec_6.3x7.7, , C88744, -55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS
+Capacitor, 100uF, CP_Radial_D6.3mm_P2.50mm, , C5438847, 35V 100uF ±20% 38mΩ 2.15A Plugin,D5.5xL9mm Polymer Aluminum Capacitors ROHS
+Capacitor, 10nF, C_0805_2012Metric, , C1710, 10nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 10nF, C_0805_2012Metric, , C15195, 10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 10uF, C_0805_2012Metric, , C440198, 10uF 50V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 10uF, C_0805_2012Metric, , C15850, 10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 1nF, C_0805_2012Metric, , C46653, 1nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 1uF, C_0805_2012Metric, , C28323, 1uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 220nF, C_0805_2012Metric, , C5378, 220nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 220uF, CP_Elec_6.3x7.7, , C25170691, -55℃~+105℃ 160mΩ 2000hrs@105℃ 220uF 25V 6.3mm 600mA 7.7mm ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS
+Capacitor, 220uF, CP_Elec_6.3x7.7, , C2162971, -55℃~+105℃ 10.5mm 2000hrs@105℃ 220uF 35V 80mΩ@100kHz 850mA@100kHz 8mm ±20% SMD,D8xL10.5mm Aluminum Electrolytic Capacitors - SMD ROHS
+Capacitor, 22nF, C_0805_2012Metric, , C1729, 22nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 22uF, C_0805_2012Metric, , C45783, 10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 22uF, CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder, , C129272, -55℃~+125℃ 10V 10Ω@100kHz 22uF ±10% CASE-A-3216-16(mm) Tantalum Capacitors ROHS
+Capacitor, 33nF, C_0805_2012Metric, , C107150, 33nF ±10% 50V Ceramic Capacitor X7R 0805
+Capacitor, 4.7uF, C_0805_2012Metric, , C1779, 25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 470nF, C_0805_2012Metric, , C13967, 470nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Capacitor, 470uF, CP_Radial_D10.0mm_P5.00mm, , C7499947, 470uF 35V Plugin,D8xL16mm Aluminum Electrolytic Capacitors - Leaded ROHS
+Capacitor, 47uF, CP_Radial_D6.3mm_P2.50mm, , C106665, 47uF 50V ±20% Plugin,D6.3xL11mm Aluminum Electrolytic Capacitors - Leaded ROHS
+
+//Inductors:
+Inductor, 22n, L_0805_2012Metric, , C108962, 500mA 22nH 220mΩ ±5% 0805 Fixed Inductors RoHS
+Inductor, 22u, L_APV_APH0630, , C5349702, 2.5A 22uH 170mΩ 3A Molded Inductor ±20% SMD,7x6.6mm Fixed Inductors RoHS
+Inductor, 33u, L_Chilisin_BMRx00060630, , C177245, 2A 33uH ±20% 2.5A 310mΩ Molded Inductor SMD,7x6.6mm Fixed Inductors RoHS
+Inductor, 33u, L_Sunlord_SWPA4010S, , C167885, Inductor
+
+//Transistors:
+Transistor, 2N7002K, SOT-23, , C8545, 1 N-channel 115mA 2.5V 225mW 50pF 5pF 5Ω@10V 60V SOT-23 MOSFETs ROHS
+Transistor, 2N7002K, SOT-23, , C65189, 0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23
+Transistor, AO3400A, SOT-23, , C347497, 30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23
+Transistor, BC807, SOT-23, , C5204715, 45V 300mW 250@100mA,1V 500mA PNP SOT-23 Bipolar (BJT) ROHS
+Transistor, PMOS, SOT-223-3_TabPin2, , C154901, P-MOSFET transistor, drain/source/gate
+
+//Diodes:
+Diode, 1N4148W, D_SOD-123, , C83528, Diode Independent 100V 300mA Surface Mount SOD-123
+Diode, 1N4148W, D_SOD-123, , C81598, Diode Independent 100V 300mA Surface Mount SOD-123
+Diode, BAT54S, SOT-23, , C47546, Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323
+Diode, BAV21W, D_SOD-123, , C113947, 250V Independent Type 1.25V@200mA 50ns 200mA SOD-123 Switching Diodes ROHS
+Diode, BAV70, SOT-23, , C68978, -55℃~+150℃ 1 Pair Common Cathode 1.25V@150mA 2.5uA@70V 200mA 225mW 2A 6ns 70V SOT-23 Switching Diodes ROHS
+Diode, D_Bridge, Diode_Bridge_Diotec_ABS, , C193012, Diode bridge, +ve/-ve/AC/AC
+Diode, SM4007, D_MELF, , C64898, 1000V 1A General Purpose Rectifier Diode, MELF
+Diode, SS14, D_SMA, , C2480, 40V 1A Schottky Diode, SMA
+Diode, SS24, D_SMB, , C5190156, 40V 2A Schottky Diode, SMB
+Diode, SS34, D_SMC_Handsoldering, , C8678, 40V Independent Type 3A 550mV@3A SMA(DO-214AC) Schottky Diodes ROHS
+Diode, SS54, D_SMA, , C22452, 40V Independent Type 550mV@5A 5A SMA(DO-214AC) Schottky Diodes ROHS
+Diode, Zener, D_MiniMELF, , C181075, Zener Diode Independent 15.3V~17.1V 500mW Surface Mount LL-34(SOD-80)
+
+//Optoelectronics:
+Optoelectronic, LED_BLUE, LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder, , C965817, Light emitting diode
+Optoelectronic, LED_Dual, LED_Dual_3227, , C965842, 
+Optoelectronic, LED_GREEN, LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder, , C2297, -40℃~+85℃ 100mW 120° 2.6V~3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0805 LED Indication - Discrete ROHS
+Optoelectronic, LED_YELLOW, LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder, , C2296, -40℃~+85℃ 1.8V~2.4V 120° 175mcd 40mW 584nm~594nm 596nm Discrete Diode Water Clear Yellow 0805 LED Indication - Discrete ROHS
+Optoelectronic, LTV-817, SMDIP-4_W9.53mm, basic, C109227, -30℃~+110℃ 1 1.2V 100mV@1mA,20mA 35V 3us 4us@2mA,100Ω 50% 50mA 50mA 5kV 600% 6V DC Phototransistor SMD-4P Transistor, Photovoltaic Output Optoisolators ROHS
+Optoelectronic, WS2812B, LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm, , C2843785, RGB LED with integrated controller
+Optoelectronic, WS2812B, LED_WS2812B-2020_PLCC4_2.0x2.0mm, , C965555, RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA
+
+//Regulators:
+Regulator, , TQFN-16_L4.0-W4.0-P0.65-BL-EP, , C379389, The Chip Type:Charging IC Voltage - Supply:5V~12V Voltage - Supply:5V~12V Charge Current - Max:2A Charging Saturation Voltage:8.4V；4.2V End-Off Voltage:- Type of Battery:Lithium-ion/Polymer Number of Cells:1~2 Number of Cells:1~2 Operating Temperature:-20
+Regulator, 0R22, R_2010_5025Metric, , C2999625, Resistor
+Regulator, 1.1A Polyfuse, Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder, , C19723490, Polymeric PTC Resettable Fuse 48V 1.1A Surface Mount 1812
+Regulator, 100k, R_0402_1005Metric, , C60491, Resistor
+Regulator, 10u, C_0805_2012Metric, , C380331, Unpolarized capacitor
+Regulator, 2.2k, R_0805_2012Metric, , C17520, Resistor
+Regulator, 2k2, R_0402_1005Metric, , C25879, Resistor
+Regulator, AP2112K-3.3, SOT-23-5, , C51118, 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5
+Regulator, L78L05_SOT89, SOT-89-3, , C42738, 30V Positive Fixed 5V SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS
+Regulator, LM2596S-ADJ, TO-263-5_TabPin3, , C5349987, Step-down type Adjustable 40V 3.5A 1.23V~37V TO-263-5L DC-DC Converters ROHS
+Regulator, TP4056, SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP, , C382139, The Chip Type:Linear charging chip Supply Voltage:4V~6V Supply Voltage:4V~6V Maximum Charge Current:1A Charging Saturation Voltage:4.2V Type of Battery:Lithium-ion/Polymer Number of Cells:1 Number of Cells:1 Operating Temperature:-40°C~+85°C Operating Tempe
+Regulator, XL1509-5.0, SOIC-8_3.9x4.9mm_P1.27mm, , C41364882, Buck DC/DC Converter, 2A, 5V Output Voltage, 7-40V Input Voltage
+Regulator, XL4001, ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP, , C2988027, Function:Buck Output Type:Adjustable Voltage - Supply:4.5V~40V Voltage - Supply:4.5V~40V Output Voltage:1.235V~37V Output Voltage:1.235V~37V Output Current:2A Frequency - Switching:150kHz Frequency - Switching:150kHz Operating Temperature:-40°C~+125°C@(TJ)
+Regulator, XL6019, TO-263-5_TabPin3, , C73018, Boost type 60V 5V~40V 5A TO-263-5 DC-DC Converters ROHS
+
+//Integrated_Circuits:
+Integrated_Circuit, 100n, C_0402_1005Metric, , C1525, Unpolarized capacitor
+Integrated_Circuit, ADS1115IDGS, TSSOP-10_3x3mm_P0.5mm, , C37593, Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+Integrated_Circuit, HDC1080, Texas_PWSON-N6, , C82227, ±2%RH -40℃~+125℃ 0%RH~100%RH I2C WSON-6(3x3) Humidity, Moisture Sensors RoHS
+Integrated_Circuit, MCP23017_SO, SSOP-28_5.3x10.2mm_P0.65mm, , C506653, 16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017),  SOIC-28
+Integrated_Circuit, NE555D, SOIC-8_3.9x4.9mm_P1.27mm, , C7426, Precision Timers, 555 compatible, SOIC-8
+Integrated_Circuit, TL072, SO-8_5.3x6.2mm_P1.27mm, , C6961, Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8
+Integrated_Circuit, TXB0102DCU, VSSOP-8_2.3x2mm_P0.5mm, , C60709, 2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8
+
+//Microcontrollers:
+Microcontroller, ESP32-MINI-1, ESP32-MINI-1, , C2980305, ESP32-MINI-1/U MCU, SiP, 4MB Flash in ESP32-MINI-format
+Microcontroller, ESP32-WROOM-32, ESP32-WROOM-32U, , C2980301, RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
+
+//Connectors:
+Connector, 100n, C_0402_1005Metric_Pad0.74x0.62mm_HandSolder, , C2909631, 50V 100nF X7R ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Connector, 10k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C17414, Resistor
+Connector, 10u, C_0805_2012Metric, , C162422, Unpolarized capacitor
+Connector, 180º JST1.25mm 2P, Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical, , C49023803, Generic connector, single row, 01x02, script generated
+Connector, 3.81-2P, PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal, , C395684, 2 Position Board Side/Socket - Closed 3.81mm Pitch Right-Angle Pin
+Connector, 3.81-3P, PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal, , C395690, 150V 5A 3 Bend -40℃~+105℃ 1 2.54mm 1x3P Green Receptacle-Close Push-Pull,P=2.54mm Pluggable System Terminal Block ROHS
+Connector, 4P-1.25mm, Hirose_DF13C_CL535-0404-8-51_1x04-1MP_P1.25mm_Vertical, , C7433470, Generic connector, single row, 01x04, script generated
+Connector, 5.08-03P-180, PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical, , C8412, 3 Position Board Side/Socket - Closed 5.08mm Pitch Straight Pin
+Connector, 5.08-03P-90, PhoenixContact_MC_1,5_3-G-5.08_1x03_P5.08mm_Horizontal, , C8377, 3 Position Board Side/Socket - Closed 5.08mm Pitch Right-Angle Pin
+Connector, 5.08-10P-180, PhoenixContact_MSTBVA_2,5_10-G-5,08_1x10_P5.08mm_Vertical, , C29173, 10 Position Board Side/Socket - Closed 5.08mm Pitch Straight Pin
+Connector, 5.08-10P-90, PhoenixContact_MSTBA_2,5_10-G-5,08_1x10_P5.08mm_Horizontal, , C441233, 10 Position Board Side/Socket - Closed 5.08mm Pitch Right-Angle Pin
+Connector, 5.08-2P-90, PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal, , C3697, 2 Position Board Side/Socket - Closed 5.08mm Pitch Right-Angle Pin
+Connector, 5.08-4P-180, PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical, , C8436, 4 Position Board Side/Socket - Closed 5.08mm Pitch Straight Pin
+Connector, 5.08-4P-90, PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal, , C441238, 300V 10A 4 Bend -40℃~+105℃ 1 5.08mm 1x4P Green Receptacle-Close Push-Pull,P=5.08mm Pluggable System Terminal Block ROHS
+Connector, 5.1k, R_0805_2012Metric, , C27834, Resistor
+Connector, Barrel_Jack_Switch, BarrelJack_Horizontal, , C720557, DC Barrel Jack with an internal switch
+Connector, IDC-20P-180, IDC-Header_2x10_P2.54mm_Vertical, , C492444, 300V 10A 10 Bend -40℃~+105℃ 1 5.08mm 1x10P Green Receptacle-Close Push-Pull,P=5.08mm Pluggable System Terminal Block ROHS
+Connector, IDC-20P-90, IDC-Header_2x10_P2.54mm_Horizontal, , C9144, Connector IDC Header Through Hole, Right Angle 20 position 2.54mm
+Connector, microSD tray, TF-SMD_TF-CARD-XG8P-H1.5, , C7529392, Card Connection Mode:Flip type Card Type:MicroSD card (TF card) Connector Type:Card Slot Additional Card Detection Pins:- Supplementary Features:- Maximum Body Height:1.5mm Operating Temperature Range:-40°C~+70°C Operating Temperature Range:-40°C~+70°C
+Connector, SS14, D_SMA, , C2909920, 40V 1A Schottky Diode, SMA
+Connector, USB_C_Receptacle_USB2.0_8P, USB-C-SMD_GT-USB-7101A, , C7469647, USB 2.0-only 14P Type-C Receptacle connector
+
+//Misc:
+Misc, , , , C307380, 
+Misc, , HEATSINK-TH_L34.0-W12.0, , C49308084, 
+Misc, , , , C269336, 
+Misc, 100k, R_0805_2012Metric, , C149504, -55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+Misc, 10k, R_0402_1005Metric, , C60490, Resistor
+Misc, 10k, Potentiometer_Runtron_RM-065_Vertical, , C5205021, Trim-potentiometer
+Misc, 10mm Blade Fuse, Fuseholder_Blade_Mini, , C19727304, Blade Clip 1 DIP-4 Fuseholders RoHS
+Misc, 10u, C_0805_2012Metric, , C77075, Unpolarized capacitor
+Misc, 1k, R_0805_2012Metric, , C95781, Resistor
+Misc, 20mm Fuse holder, Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open, , C3131, Plugin Fuseholders ROHS
+Misc, 2k, R_0402_1005Metric_Pad0.72x0.64mm_HandSolder, , C4109, 125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS
+Misc, 330, R_0805_2012Metric, , C17630, Resistor
+Misc, BTA16-600B, TO-220-3_Vertical, , C7471857, 16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220
+Misc, FM8002, SOP-8_3.9x4.9mm_P1.27mm, , C94625, Class:- Speaker Channels:1-Channel Output Power:2Wx1@4Ω Voltage - Supply:2.5V~5.5V Voltage - Supply:2.5V~5.5V Total Harmonic Distortion + Noise (THD+N):0.2% Quiescent Current:- Operating Temperature:- Operating Temperature:-
+Misc, G5LE-1, Relay_SPDT_Omron-G5LE-1, , C30431, 250V@AC 12V 15A One Conversion: 1C (SPDT-Conversion) Plugin,15.6x19.2mm Power Relays ROHS
+Misc, LED, LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder, , C84256, Light emitting diode
+Misc, MOC3021M, SMDIP-6_W9.53mm, , C115465, Random Phase Opto-Triac, Vdrm 400V, Ift 15mA, DIP6
+Misc, PC817, SMDIP-4_W7.62mm, , C5451664, DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
+Misc, Polyfuse, Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder, , C22446878, Polymeric PTC Resettable Fuse 48V 200mA Surface Mount 1206
+Misc, Polyfuse, Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder, , C516070, Polymeric PTC Resettable Fuse 30V 200mA Surface Mount 0805
+Misc, Polyfuse, Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder, , C269167, Polymeric PTC Resettable Fuse 16V 1.5A Surface Mount 1210
+Misc, Polyfuse, R_1812_4532Metric_Pad1.30x3.40mm_HandSolder, , C2760293, Polymeric PTC Resettable Fuse 30V 2A Surface Mount 1812
+Misc, SP0504BAHT, SOT-23-5, , C19829475, TVS Diode Array, 5.5V Standoff, 4 Channels, SOT-23-5 package
+Misc, SW_Push, SW_SPST_PTS647_Sx38, , C455246, Push button switch, generic, two pins
+Misc, SW_Push, SW_Push_SPST_NO_Alps_SKRK, , C720477, -30℃~+80℃ 1.6N 100,000 Cycles 12V 2mm 3mm 4mm 50mA Black Round Button SMD(SMT) Tab SPST Surface Mount,Vertical Without Bracket SMD,4x3mm Tactile Switches ROHS
+Misc, SW_Push, SW_SPST_SKQG_WithStem, , C318884, -30℃~+85℃ 1.5mm 1.6N 100,000 Cycles 12V 5.1mm 5.1mm 50mA Gold No Round Button SPST Surface Mount,Vertical Without Bracket SMD-4P,5.1x5.1mm Tactile Switches ROHS
+
