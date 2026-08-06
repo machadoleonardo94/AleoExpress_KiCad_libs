@@ -4681,6 +4681,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cc76b23-4f30-44e4-9c0b-9afb5545f09e")
 		)
@@ -4833,6 +4914,87 @@
 			)
 		)
 		(property "Observations" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 104.14 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 104.14 93.98 90)
 			(effects
 				(font
@@ -5125,6 +5287,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39b41438-2b4a-44d4-a1c4-6f04a33c664b")
 		)
@@ -5211,6 +5454,87 @@
 			)
 		)
 		(property "Observations" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 54.61 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 54.61 55.88 90)
 			(effects
 				(font
@@ -5332,6 +5656,87 @@
 			)
 		)
 		(property "Observations" "Pairs with C41428293  2EGTK-5.08-02P-14-100"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 25.4 44.45 0)
 			(effects
 				(font
@@ -5491,6 +5896,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 95.25 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e8acc33-8c96-4108-8bdc-fbf00acf0bf7")
 		)
@@ -5577,6 +6063,87 @@
 			)
 		)
 		(property "Observations" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 88.9 130.81 90)
 			(effects
 				(font
@@ -5812,6 +6379,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07c8c5f9-bbb9-4e8d-a241-4f742c878e28")
 		)
@@ -5890,6 +6538,87 @@
 		)
 		(property "ASSEMBLY" ""
 			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 102.87 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 102.87 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,6 +6879,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ae186a8-2314-4771-b0fc-f59232c18a80")
 		)
@@ -6321,6 +7131,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 38.1 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2eb2996b-22ac-40bc-b457-e57b9dc49d21")
 		)
@@ -6477,6 +7368,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46047096-8763-4114-9b79-842f84773e43")
 		)
@@ -6550,6 +7522,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "XL4001_Load_limiter"
 				(path "/435bb94e-d379-4041-9433-e08282ea3ba2"
@@ -6606,6 +7659,87 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -6717,7 +7851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 72.6948 96.52 0)
 			(effects
 				(font
@@ -6780,6 +7914,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3b7ed41-1247-4b91-bee9-d2bb9b5f1aa0")
 		)
@@ -6823,7 +8038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 81.5848 57.15 0)
 			(effects
 				(font
@@ -6879,6 +8094,87 @@
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
 			(at 86.36 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +8357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 80.3148 96.52 0)
 			(effects
 				(font
@@ -7117,6 +8413,87 @@
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
 			(at 85.09 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,6 +8571,87 @@
 		)
 		(property "LCSC" "C5205021"
 			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 34.29 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 34.29 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,6 +8805,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4ea5f528-9122-447e-b56c-5e8d72bbcadb")
 		)
@@ -7444,6 +8983,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 120.65 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "746da185-c137-41e3-9db6-bb685b5ac884")
 		)
@@ -7531,6 +9151,87 @@
 			)
 		)
 		(property "Observations" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 116.84 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 116.84 93.98 90)
 			(effects
 				(font
@@ -7641,6 +9342,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d175b9e-856b-44ba-b717-fe62b6e4b568")
 		)
@@ -7705,7 +9487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 72.6948 57.15 0)
 			(effects
 				(font
@@ -7761,6 +9543,87 @@
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
 			(at 77.47 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 73.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,6 +9717,87 @@
 			)
 		)
 		(property "Observations" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 52.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 52.07 125.73 90)
 			(effects
 				(font
@@ -7964,6 +9908,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 59.69 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c871db3f-5602-4141-8e98-b6eabdbc066f")
 		)
@@ -8026,6 +10051,87 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 107.95 58.42 0)
 			(effects
 				(font
@@ -8188,6 +10294,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4238cf0-15c7-4ed4-bbf1-dbfc10cede70")
 		)
@@ -8274,6 +10461,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 66.04 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "780eaee6-6f67-4676-b530-227cf70ba6df")
 		)
@@ -8317,7 +10585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 87.9348 96.52 0)
 			(effects
 				(font
@@ -8373,6 +10641,87 @@
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
 			(at 92.71 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,6 +10878,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 54.61 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edf31bff-d9a0-4154-9525-a87f237187e3")
 		)
@@ -8594,6 +11024,87 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -8887,6 +11398,87 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 60.96 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f97b711f-a4d8-4c20-beb6-e38cc67074a9")
 		)
@@ -9039,6 +11631,87 @@
 				)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55b51e8d-175f-490b-8216-c6b5fc3cd61d")
 		)
@@ -9082,7 +11755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Aleoexpress:Cap_polymer"
 			(at 89.2048 57.15 0)
 			(effects
 				(font
@@ -9138,6 +11811,87 @@
 		)
 		(property "Observations" "35V 800mA 6.3x7.7mm"
 			(at 93.98 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 2" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 3" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 2" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 3" ""
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

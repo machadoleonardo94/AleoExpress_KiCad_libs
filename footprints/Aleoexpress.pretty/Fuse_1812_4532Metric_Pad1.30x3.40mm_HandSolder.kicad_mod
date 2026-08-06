@@ -1,0 +1,134 @@
+(footprint "Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+	(tags "fuse handsolder")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "2f70497c-a81d-4033-8711-459a304e2645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(uuid "1a5deb2d-be91-458e-a7c6-9bcc48989eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ceb4161-1177-4fe9-80fc-2c4bff818036")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33a1517f-42c9-47fe-a06d-66a351391a02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.386252 -1.71)
+		(end 1.386252 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62618314-30cd-47e0-b13a-48bdb0c87388")
+	)
+	(fp_line
+		(start -1.386252 1.71)
+		(end 1.386252 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15ea396f-914a-48ba-8418-478cf771f701")
+	)
+	(fp_rect
+		(start -3.13 -1.95)
+		(end 3.13 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cad267e7-effb-4507-9718-5e017be68e0d")
+	)
+	(fp_rect
+		(start -2.25 -1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4130e6f0-3fe4-47f6-9197-3e6dc335ae4f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1cd51f0a-f77d-4f3d-9234-9f14de0d31fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.225 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "d86eb707-1ca2-4b89-ac5e-e634d714d7db")
+	)
+	(pad "2" smd roundrect
+		(at 2.225 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.192308)
+		(uuid "240fbbdf-6653-4a34-94f6-32ae1c56afe9")
+	)
+	(embedded_fonts no)
+	(model "C:/Github/AleoExpress_KiCad_libs/Step files/F1812_L4.5-W3.2-H1.0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

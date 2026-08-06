@@ -487,15 +487,15 @@
 		(uuid "b8323840-4551-4ee2-9ba3-c97027ccb84a")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/AleoExpress_KiCad_libs/Step files/tf-card-hinged_8P.step"
+	(model "C:/Github/AleoExpress_KiCad_libs/Step files/MicroSD_socket_Hinge_type.STEP"
 		(offset
-			(xyz 0 1.2 0.8)
+			(xyz 0 1.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
